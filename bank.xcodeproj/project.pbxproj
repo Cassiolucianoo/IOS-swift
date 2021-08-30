@@ -27,6 +27,7 @@
 		BAE3595326D979E80047DCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE3595626D979E80047DCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAE3595826D979E80047DCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE3595E26DD5F0F0047DCE8 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C4A23E6D80A10BAFB746673F /* Pods-bank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bank.release.xcconfig"; path = "Target Support Files/Pods-bank/Pods-bank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,13 +57,13 @@
 				4DE5B60F19754FF90E6A8BF0 /* Pods-bank.debug.xcconfig */,
 				C4A23E6D80A10BAFB746673F /* Pods-bank.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BAE3593E26D979E60047DCE8 = {
 			isa = PBXGroup;
 			children = (
+				BAE3595E26DD5F0F0047DCE8 /* MyPlayground.playground */,
 				BAE3594926D979E60047DCE8 /* bank */,
 				BAE3594826D979E60047DCE8 /* Products */,
 				B4E306CBE74AA67524F31D22 /* Pods */,
