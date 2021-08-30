@@ -9,9 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var tristezasTextField: UITextField!
+    @IBOutlet weak var nomeTextField: UITextField!
+    
     @IBAction func add(_ sender: Any) {
         
-        print("Tristeza parte 2")
+        let nome = nomeTextField.text
+        let felicidade = tristezasTextField.text
+        
+        print("Náo comi \(nome) e fiquei triste: \(felicidade)")
         
     }
     
