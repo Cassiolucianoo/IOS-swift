@@ -107,5 +107,23 @@ print(total)
 
 
 
+class tristeainda{
+    var nome: String
+    var triste: String
+    
+    init(nome: String, triste: String){
+        self.nome = nome
+        self.triste = triste
+    }
+    
+}
+print("opa")
+
+let rango = tristeainda(nome: "Não comi nada ainda", triste: "5")
+print(rango.nome)
+print(rango.triste)
+
+
+
 
 

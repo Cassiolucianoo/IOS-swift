@@ -21,6 +21,7 @@
 		ABD4105073EE6F92D0A88EB7 /* Pods_bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA72ECA626DE9FFC00C8489C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA72ECA726DEA03600C8489C /* ClassExemplo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ClassExemplo.playground; path = ../../ClassExemplo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BA72ECA926DEC5C500C8489C /* OrientacaoObjetos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OrientacaoObjetos.playground; path = ../../OrientacaoObjetos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BAE3594726D979E60047DCE8 /* bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE3594A26D979E60047DCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAE3594C26D979E60047DCE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		BA72ECA526DE9FE300C8489C /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				BA72ECA926DEC5C500C8489C /* OrientacaoObjetos.playground */,
 				BA72ECA726DEA03600C8489C /* ClassExemplo.playground */,
 				BA72ECA626DE9FFC00C8489C /* MyPlayground.playground */,
 			);
