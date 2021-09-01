@@ -55,8 +55,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="felicidadeTextField" destination="ZVS-tb-igq" id="sTz-Zd-7mv"/>
                         <outlet property="nomeTextField" destination="fUC-j6-OYN" id="xbO-uo-r1F"/>
-                        <outlet property="tristezasTextField" destination="ZVS-tb-igq" id="H5D-qZ-BMc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
