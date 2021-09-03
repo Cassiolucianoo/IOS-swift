@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C3EB4BF59497AFCB7991DF4 /* Pods_bank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD4105073EE6F92D0A88EB7 /* Pods_bank.framework */; };
+		BA5F1E9626E14A26007988FF /* RefeicoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5F1E9526E14A26007988FF /* RefeicoesTableViewController.swift */; };
 		BA72ECAB26DFB90000C8489C /* Refeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72ECAA26DFB90000C8489C /* Refeicao.swift */; };
 		BA72ECAD26DFB95100C8489C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA72ECAC26DFB95100C8489C /* Item.swift */; };
 		BAE3594B26D979E60047DCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3594A26D979E60047DCE8 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		4DE5B60F19754FF90E6A8BF0 /* Pods-bank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bank.debug.xcconfig"; path = "Target Support Files/Pods-bank/Pods-bank.debug.xcconfig"; sourceTree = "<group>"; };
 		ABD4105073EE6F92D0A88EB7 /* Pods_bank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5F1E9526E14A26007988FF /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
 		BA72ECA626DE9FFC00C8489C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA72ECA726DEA03600C8489C /* ClassExemplo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ClassExemplo.playground; path = /Users/virtualmachine/Documents/GitHub/Solutis/Treinamento01/Playground/../../ClassExemplo.playground; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA72ECA926DEC5C500C8489C /* OrientacaoObjetos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OrientacaoObjetos.playground; path = ../../OrientacaoObjetos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				BAE3594E26D979E60047DCE8 /* ViewController.swift */,
+				BA5F1E9526E14A26007988FF /* RefeicoesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				BA72ECAD26DFB95100C8489C /* Item.swift in Sources */,
 				BAE3594F26D979E60047DCE8 /* ViewController.swift in Sources */,
 				BAE3594B26D979E60047DCE8 /* AppDelegate.swift in Sources */,
+				BA5F1E9626E14A26007988FF /* RefeicoesTableViewController.swift in Sources */,
 				BAE3594D26D979E60047DCE8 /* SceneDelegate.swift in Sources */,
 				BA72ECAB26DFB90000C8489C /* Refeicao.swift in Sources */,
 			);

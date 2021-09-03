@@ -7,9 +7,14 @@
 //user interface
 import UIKit
 
+protocol AddRefeicaoDelegate {
+    func add(_ refeicao: Refeicao)
+}
+
 class ViewController: UIViewController {
     
-    
+    //referenciando elementos da tableview
+    var delegate : AddRefeicaoDelegate?
     
     @IBOutlet weak var felicidadeTextField: UITextField?
     @IBOutlet weak var nomeTextField: UITextField?
@@ -46,6 +51,9 @@ class ViewController: UIViewController {
         let refeicao = Refeicao(nome: nomeDaRefeicao, felicidade: felicidade)
         print("Náo comi \(refeicao.nome) e fiquei triste: \(refeicao.felicidade)")
         
+        
+        delegate?.add(refeicao)
+        navigationController?.popViewController(animated: true)
 
     }
     
