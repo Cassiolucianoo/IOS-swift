@@ -16,7 +16,6 @@
 		BAFE2DDF26E93F80003AF5DF /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE2DDE26E93F80003AF5DF /* Viagem.swift */; };
 		BAFE2DE226E941BE003AF5DF /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = BAFE2DE026E941BE003AF5DF /* Assets */; };
 		BAFE2DE326E941BE003AF5DF /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE2DE126E941BE003AF5DF /* ViagemDAO.swift */; };
-		BAFE2DE526E94A34003AF5DF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE2DE426E94A34003AF5DF /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		BAFE2DDE26E93F80003AF5DF /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 		BAFE2DE026E941BE003AF5DF /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = "../../../../../../Downloads/Arquivos Projeto/Assets"; sourceTree = "<group>"; };
 		BAFE2DE126E941BE003AF5DF /* ViagemDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViagemDAO.swift; path = "../../../../../../Downloads/Arquivos Projeto/ViagemDAO.swift"; sourceTree = "<group>"; };
-		BAFE2DE426E94A34003AF5DF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,15 +64,14 @@
 			children = (
 				BAFE2DE026E941BE003AF5DF /* Assets */,
 				BAFE2DE126E941BE003AF5DF /* ViagemDAO.swift */,
-				BAFE2DCA26E90421003AF5DF /* AppDelegate.swift */,
-				BAFE2DCC26E90421003AF5DF /* SceneDelegate.swift */,
 				BAFE2DCE26E90421003AF5DF /* ViewController.swift */,
 				BAFE2DD026E90421003AF5DF /* Main.storyboard */,
-				BAFE2DD326E90422003AF5DF /* Assets.xcassets */,
 				BAFE2DD526E90422003AF5DF /* LaunchScreen.storyboard */,
-				BAFE2DD826E90422003AF5DF /* Info.plist */,
 				BAFE2DDE26E93F80003AF5DF /* Viagem.swift */,
-				BAFE2DE426E94A34003AF5DF /* TableViewCell.swift */,
+				BAFE2DD326E90422003AF5DF /* Assets.xcassets */,
+				BAFE2DD826E90422003AF5DF /* Info.plist */,
+				BAFE2DCA26E90421003AF5DF /* AppDelegate.swift */,
+				BAFE2DCC26E90421003AF5DF /* SceneDelegate.swift */,
 			);
 			path = "Narnia viagens";
 			sourceTree = "<group>";
@@ -153,7 +150,6 @@
 				BAFE2DDF26E93F80003AF5DF /* Viagem.swift in Sources */,
 				BAFE2DE326E941BE003AF5DF /* ViagemDAO.swift in Sources */,
 				BAFE2DCF26E90421003AF5DF /* ViewController.swift in Sources */,
-				BAFE2DE526E94A34003AF5DF /* TableViewCell.swift in Sources */,
 				BAFE2DCB26E90421003AF5DF /* AppDelegate.swift in Sources */,
 				BAFE2DCD26E90421003AF5DF /* SceneDelegate.swift in Sources */,
 			);

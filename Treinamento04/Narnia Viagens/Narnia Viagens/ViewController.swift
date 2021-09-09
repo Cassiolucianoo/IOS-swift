@@ -10,12 +10,13 @@ import UIKit
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     @IBOutlet weak var viewHoteis: UIView!
-    @IBOutlet weak var viewPacotes: UIView!
-    
-    
     @IBOutlet weak var tabelaViagens: UITableView!
+    @IBOutlet weak var viewPacotes: UIView!
+   
+    
     
     let listaViagens: Array<Viagem> = ViagemDAO().retornaTodasAsViagens()
+    //let listaViagens: Array<String> = ["Rio de janeiro","Rio de janeiro","Rio de janeiro","Rio de janeiro","Rio de janeiro","Rio de janeiro"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     }
     
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -38,16 +39,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)as! TableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell{
+      let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) 
         
         let viagemAtual = listaViagens[indexPath.row]
         
-        //cell.textLabel?.text = viagemAtual.titulo
-        cell.labelTitulo.text = viagemAtual.titulo
-        cell.labelQuantidadeDias.text = "\(viagemAtual.quantidadeDedias) Dias"
-        cell.labelPreco.text = viagemAtual.preco
+         cell.textLabel?.text = viagemAtual.titulo
         
+        // cell.textLabel?.text = listaViagens[indexPath.row]
+        
+       // cell.labelTitulo.text = viagemAtual.titulo
+       // cell.labelQuantidadeDias.text = "\(viagemAtual.quantidadeDedias) Dias"
+      //  cell.labelPreco.text = viagemAtual.preco
+      //  cell.imagemViagem.image = UIImage(named: viagemAtual.caminhoDaImagem)
         
         return cell
     }

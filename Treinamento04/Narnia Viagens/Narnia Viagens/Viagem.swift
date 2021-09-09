@@ -7,7 +7,6 @@
 
 import UIKit
 
-
 class Viagem: NSObject{
     let titulo: String
     let quantidadeDedias: Int
