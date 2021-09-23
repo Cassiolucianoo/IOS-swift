@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         
         if(idadeInformada.text == "" ){
            
+            nadaIfnormado.isHidden = false
             
             nadaIfnormado.text = "Nada informado"
            
