@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="306-U6-WrL">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gui-Cn-hc7">
+            <objects>
+                <viewController id="306-U6-WrL" customClass="ViewController" customModule="Treinamento12_Consumindo_api_bitcoin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RPb-LE-6Zu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QSw-7P-3dh">
+                                <rect key="frame" x="87" y="332" width="240" height="232.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGOREAL" translatesAutoresizingMaskIntoConstraints="NO" id="Xoo-dg-r60">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="W38-1J-Y8n"/>
+                                            <constraint firstAttribute="width" constant="150" id="zLJ-Tp-IHn"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="R$ 0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JHZ-gX-iwu">
+                                        <rect key="frame" x="0.0" y="150" width="240" height="47"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNp-uq-2DQ">
+                                        <rect key="frame" x="0.0" y="197" width="240" height="35.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <state key="normal" title="Atualizar valor">
+                                            <color key="titleColor" red="0.0" green="0.54901960780000003" blue="0.0" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="atualizarPreco:" destination="306-U6-WrL" eventType="touchUpInside" id="XOi-Tu-1Qv"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="DDk-sc-Giq"/>
+                                    <constraint firstAttribute="height" constant="232.5" id="j1J-4R-L9L"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QsB-Oa-lqf"/>
+                        <color key="backgroundColor" red="0.85640851890000003" green="1" blue="0.64529850749999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="QSw-7P-3dh" firstAttribute="centerY" secondItem="RPb-LE-6Zu" secondAttribute="centerY" id="FbX-Mn-ICa"/>
+                            <constraint firstItem="QSw-7P-3dh" firstAttribute="centerX" secondItem="RPb-LE-6Zu" secondAttribute="centerX" id="opD-fz-MTI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btAtualizaValor" destination="eNp-uq-2DQ" id="LnX-QR-P2W"/>
+                        <outlet property="precoDolar" destination="JHZ-gX-iwu" id="4TB-Yn-Y5R"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dVW-5X-uM9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="74"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGOREAL" width="512" height="512"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
