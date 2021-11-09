@@ -76,3 +76,30 @@ print(namesI)
 // verificando se existe um elemento com o nome determinado na lista
 if namesI.contains("Novo"){
     print("Fomos !!!!!!!!!!")}
+
+
+
+//Usando o loop for-in para iterar sobre todo o conjunto de valores em uma matriz
+
+var someStrs = [String]()
+
+someStrs.append("Apple")
+someStrs.append("Amazon")
+someStrs += ["Google"]
+for item in someStrs {
+   print(item)
+}
+
+// função enumerate() que retorna o índice de um item junto com seu valor
+var someStrs2 = [String]()
+
+someStrs2.append("Apple")
+someStrs2.append("Amazon")
+someStrs2 += ["Google"]
+
+for (index, item) in someStrs2.enumerated() {
+   print("Value at index = \(index) is \(item)")
+}
+
+
+

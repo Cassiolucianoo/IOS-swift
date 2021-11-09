@@ -27,9 +27,6 @@
 		BA4AD65126E80BAA0067A527 /* adicionarItensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adicionarItensViewController.swift; sourceTree = "<group>"; };
 		BA4AD65226E80BAA0067A527 /* adicionarItensViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = adicionarItensViewController.xib; sourceTree = "<group>"; };
 		BA5F1E9526E14A26007988FF /* RefeicoesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefeicoesTableViewController.swift; sourceTree = "<group>"; };
-		BA72ECA626DE9FFC00C8489C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BA72ECA726DEA03600C8489C /* ClassExemplo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ClassExemplo.playground; path = /Users/virtualmachine/Documents/GitHub/Solutis/Treinamento01/Playground/../../ClassExemplo.playground; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		BA72ECA926DEC5C500C8489C /* OrientacaoObjetos.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = OrientacaoObjetos.playground; path = ../../OrientacaoObjetos.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA72ECAA26DFB90000C8489C /* Refeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refeicao.swift; sourceTree = "<group>"; };
 		BA72ECAC26DFB95100C8489C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		BAE3594726D979E60047DCE8 /* bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,16 +69,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		BA72ECA526DE9FE300C8489C /* Playground */ = {
-			isa = PBXGroup;
-			children = (
-				BA72ECA926DEC5C500C8489C /* OrientacaoObjetos.playground */,
-				BA72ECA726DEA03600C8489C /* ClassExemplo.playground */,
-				BA72ECA626DE9FFC00C8489C /* MyPlayground.playground */,
-			);
-			path = Playground;
-			sourceTree = "<group>";
-		};
 		BA72ECAE26DFBA8100C8489C /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +100,6 @@
 		BAE3593E26D979E60047DCE8 = {
 			isa = PBXGroup;
 			children = (
-				BA72ECA526DE9FE300C8489C /* Playground */,
 				BAE3594926D979E60047DCE8 /* bank */,
 				BAE3594826D979E60047DCE8 /* Products */,
 				B4E306CBE74AA67524F31D22 /* Pods */,
