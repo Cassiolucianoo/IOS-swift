@@ -4,7 +4,6 @@
 //
 //  Created by cassio luciano on 13/12/21.
 //
-
 import UIKit
 
 class PerguntasViewController: UIViewController {
@@ -18,15 +17,18 @@ class PerguntasViewController: UIViewController {
     //Carrega uma View sempre que um metodo da UIViewController é inciado
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.viewTempo.frame.size.width = 0
     }
     
     //chamado sempre que uma tela vai ser inciada  metodo da UIViewController
     override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
         viewTempo.frame.size.width = view.frame.size.width
-        UIView.animate(withDuration: 60.0, delay: 0, options: .curveLinear, animations: {
-            self.viewTempo.frame.size.width = 0
-        }) { (sucesso) in
+        UIView.animate(withDuration: 05.0, delay: 0, options: .curveLinear,
+                       animations: {
+                        self.viewTempo.frame.size.width = 0
+                       }) { (sucesso) in
             self.MostraResultado()
         }
         
@@ -45,7 +47,7 @@ class PerguntasViewController: UIViewController {
     }
     
     func MostraResultado(){
-        performSegue(withIdentifier: "resultadoSegue", sender: nil)
+        performSegue(withIdentifier: "ResultadoSegue", sender: nil)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -55,11 +57,9 @@ class PerguntasViewController: UIViewController {
         
     }
     
-    
     @IBAction func selecionarResposta(_ sender: UIButton) {
         let index = btRespostas.index(of: sender)!
         gerenciarPerguntas.validaResposta(index: index)
         getNovaPergunta()
     }
-    
 }

@@ -64,17 +64,17 @@
 		D8CE8B072754B8C000BD9EBC /* Treinamento1.04 - App perguntas teoricas swift */ = {
 			isa = PBXGroup;
 			children = (
-				D8CE8B082754B8C000BD9EBC /* AppDelegate.swift */,
-				D8CE8B0A2754B8C000BD9EBC /* SceneDelegate.swift */,
-				D8CE8B0C2754B8C000BD9EBC /* ViewController.swift */,
-				D863C61B2767807E0068C46C /* ResultadoViewController.swift */,
 				D8D58CDD275FAD1A008A82AC /* Main.storyboard */,
 				D863C618276780650068C46C /* PerguntasViewController.swift */,
-				D8CE8B112754B8C000BD9EBC /* Assets.xcassets */,
-				D8CE8B132754B8C000BD9EBC /* LaunchScreen.storyboard */,
-				D8CE8B162754B8C000BD9EBC /* Info.plist */,
 				D86223062767B52800B04963 /* Perguntas.swift */,
+				D863C61B2767807E0068C46C /* ResultadoViewController.swift */,
 				D86223092767B55400B04963 /* GerenciarPerguntas.swift */,
+				D8CE8B132754B8C000BD9EBC /* LaunchScreen.storyboard */,
+				D8CE8B112754B8C000BD9EBC /* Assets.xcassets */,
+				D8CE8B162754B8C000BD9EBC /* Info.plist */,
+				D8CE8B0C2754B8C000BD9EBC /* ViewController.swift */,
+				D8CE8B082754B8C000BD9EBC /* AppDelegate.swift */,
+				D8CE8B0A2754B8C000BD9EBC /* SceneDelegate.swift */,
 			);
 			path = "Treinamento1.04 - App perguntas teoricas swift";
 			sourceTree = "<group>";

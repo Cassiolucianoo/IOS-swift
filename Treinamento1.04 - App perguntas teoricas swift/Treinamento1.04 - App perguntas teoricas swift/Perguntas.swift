@@ -4,10 +4,7 @@
 //
 //  Created by cassio luciano on 13/12/21.
 //
-
 import Foundation
-
-
 
 class Perguntas {
     
@@ -28,14 +25,12 @@ class Perguntas {
     func validaOpcao (_ index: Int) -> Bool{
         let responder = opcao[index]
         return responder == respostaCorreta
-        
     }
     
     // apresenta a liberação de memoria apos aparesentar uma questão
     deinit {
         print("Liberando memoria")
     }
-    
     
 }
 
