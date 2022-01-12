@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Perguntas View Controller-->
         <scene sceneID="2hW-gz-ugF">
             <objects>
-                <viewController id="fmj-xj-AK6" sceneMemberID="viewController">
+                <viewController id="fmj-xj-AK6" customClass="PerguntasViewController" customModule="Treinamento1_04___App_perguntas_teoricas_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LHO-pi-C5f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,7 @@
                                 <rect key="frame" x="0.0" y="427" width="414" height="390"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5i-Us-ucd">
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="z5i-Us-ucd">
                                         <rect key="frame" x="0.0" y="4" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -46,6 +46,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selecionarResposta:" destination="fmj-xj-AK6" eventType="touchUpInside" id="umg-cH-HLY"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLq-cu-5V6">
                                         <rect key="frame" x="0.0" y="68" width="414" height="60"/>
@@ -56,6 +59,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selecionarResposta:" destination="fmj-xj-AK6" eventType="touchUpInside" id="jxQ-Fl-9Ev"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhK-Tw-fim">
                                         <rect key="frame" x="0.0" y="132" width="414" height="60"/>
@@ -66,6 +72,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selecionarResposta:" destination="fmj-xj-AK6" eventType="touchUpInside" id="KMD-2M-M2x"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fD9-hf-Nz2">
                                         <rect key="frame" x="0.0" y="196" width="414" height="60"/>
@@ -76,6 +85,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selecionarResposta:" destination="fmj-xj-AK6" eventType="touchUpInside" id="QXi-ef-b18"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gq8-NU-ytL">
                                         <rect key="frame" x="0.0" y="261" width="414" height="60"/>
@@ -86,6 +98,9 @@
                                         <state key="normal">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="selecionarResposta:" destination="fmj-xj-AK6" eventType="touchUpInside" id="mSs-8H-krv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
@@ -103,17 +118,24 @@
                     </view>
                     <navigationItem key="navigationItem" id="qQm-9e-hwq"/>
                     <connections>
-                        <segue destination="yCb-we-GjC" kind="show" id="N9r-Uv-vaC"/>
+                        <outlet property="lbPerguntas" destination="vw7-Xx-lgc" id="tvc-fa-jQr"/>
+                        <outlet property="viewTempo" destination="8GO-IN-xRR" id="rDj-rE-wkP"/>
+                        <outletCollection property="btRespostas" destination="z5i-Us-ucd" collectionClass="NSMutableArray" id="ZKR-Aq-dC4"/>
+                        <outletCollection property="btRespostas" destination="NLq-cu-5V6" collectionClass="NSMutableArray" id="1bq-pw-z2n"/>
+                        <outletCollection property="btRespostas" destination="PhK-Tw-fim" collectionClass="NSMutableArray" id="RI9-YP-7KE"/>
+                        <outletCollection property="btRespostas" destination="fD9-hf-Nz2" collectionClass="NSMutableArray" id="GiM-9z-hV0"/>
+                        <outletCollection property="btRespostas" destination="Gq8-NU-ytL" collectionClass="NSMutableArray" id="Ypf-rH-4Vd"/>
+                        <segue destination="yCb-we-GjC" kind="show" identifier="ResultadoSegue" id="N9r-Uv-vaC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1T-g2-qRw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="73.913043478260875" y="-143.30357142857142"/>
         </scene>
-        <!--View Controller-->
+        <!--Resultado View Controller-->
         <scene sceneID="kS0-4Z-VV2">
             <objects>
-                <viewController id="yCb-we-GjC" sceneMemberID="viewController">
+                <viewController id="yCb-we-GjC" customClass="ResultadoViewController" customModule="Treinamento1_04___App_perguntas_teoricas_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6OW-AB-lSj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,6 +176,9 @@
                                 <state key="normal" title="VOLTAR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="voltarInicio:" destination="yCb-we-GjC" eventType="touchUpInside" id="c7o-WZ-Ajc"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8J-K7-ivb">
                                 <rect key="frame" x="0.0" y="349" width="414" height="184"/>
@@ -167,6 +192,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="5Qr-zE-wSv"/>
+                    <connections>
+                        <outlet property="lbCorretas" destination="JXm-0h-BaN" id="a3Q-ws-REd"/>
+                        <outlet property="lbErradas" destination="dXn-63-U6m" id="lBM-Uo-dlT"/>
+                        <outlet property="lbRespondidas" destination="AhB-78-aEt" id="Rzz-NF-kJ2"/>
+                        <outlet property="lbResultado" destination="t8J-K7-ivb" id="fH2-lU-i65"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlo-L0-NDh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
