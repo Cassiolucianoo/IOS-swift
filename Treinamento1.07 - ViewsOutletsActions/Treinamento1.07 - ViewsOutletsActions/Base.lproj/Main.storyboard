@@ -27,10 +27,17 @@
                                 <rect key="frame" x="184" y="78" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lGT-2q-9N1"/>
+                                    <action selector="runSomething:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YTH-XS-c2i"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6VZ-26-Zr7">
                                 <rect key="frame" x="55" y="388" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="change:" destination="BYZ-38-t0r" eventType="valueChanged" id="jqx-Z2-OYi"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgr-wO-8j4">
                                 <rect key="frame" x="102" y="484" width="30" height="30"/>
@@ -107,16 +114,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="01"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thP-bQ-dtT">
-                                <rect key="frame" x="71" y="484" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="01"/>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xR0-GA-LRF">
-                                <rect key="frame" x="96" y="206" width="240" height="128"/>
+                                <rect key="frame" x="75" y="199" width="265" height="138"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thP-bQ-dtT">
+                                <rect key="frame" x="286" y="78" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="01"/>
+                                <connections>
+                                    <action selector="doSomething:forEvent:" destination="BYZ-38-t0r" eventType="touchDown" id="Aus-Fb-4vr"/>
+                                    <action selector="runSomething:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qTq-Qa-qbR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -125,22 +136,21 @@
                         <outlet property="button" destination="3Gz-ae-I3k" id="Xy1-B8-0fx"/>
                         <outlet property="label" destination="zmQ-NF-cZx" id="o5z-xU-38r"/>
                         <outlet property="myView" destination="xR0-GA-LRF" id="yMr-sI-5rl"/>
-                        <outletCollection property="Buttons" destination="thP-bQ-dtT" collectionClass="NSMutableArray" id="0aC-a9-zMn"/>
-                        <outletCollection property="Buttons" destination="zgr-wO-8j4" collectionClass="NSMutableArray" id="mNK-WY-jmD"/>
-                        <outletCollection property="Buttons" destination="iRg-3X-S35" collectionClass="NSMutableArray" id="SG3-TC-dYj"/>
-                        <outletCollection property="Buttons" destination="2pa-Ac-KLi" collectionClass="NSMutableArray" id="fGw-tS-8ml"/>
-                        <outletCollection property="Buttons" destination="VIq-Vm-pTv" collectionClass="NSMutableArray" id="cpX-dh-YHG"/>
-                        <outletCollection property="Buttons" destination="ks6-Mv-9zj" collectionClass="NSMutableArray" id="ff8-rM-4NF"/>
-                        <outletCollection property="Buttons" destination="Dmy-0g-nWP" collectionClass="NSMutableArray" id="R40-nB-TKO"/>
-                        <outletCollection property="Buttons" destination="GwK-fJ-w2B" collectionClass="NSMutableArray" id="b6J-ph-lgR"/>
-                        <outletCollection property="Buttons" destination="c32-VH-eDM" collectionClass="NSMutableArray" id="GaL-AK-oJb"/>
-                        <outletCollection property="Buttons" destination="Su7-D6-l4y" collectionClass="NSMutableArray" id="krk-tg-1IH"/>
-                        <outletCollection property="Buttons" destination="W8V-p6-PV2" collectionClass="NSMutableArray" id="Yxn-QA-6dZ"/>
-                        <outletCollection property="Buttons" destination="BlV-4d-hrt" collectionClass="NSMutableArray" id="BgV-Zn-rnK"/>
-                        <outletCollection property="Buttons" destination="HqZ-uP-YGL" collectionClass="NSMutableArray" id="pnv-qY-yaC"/>
-                        <outletCollection property="Buttons" destination="gye-Ra-gGz" collectionClass="NSMutableArray" id="KL7-yt-bJi"/>
-                        <outletCollection property="Buttons" destination="ZnR-5J-lIP" collectionClass="NSMutableArray" id="Jwf-ZX-ZJO"/>
-                        <outletCollection property="Buttons" destination="caL-56-rF5" collectionClass="NSMutableArray" id="UkF-lL-Y5I"/>
+                        <outletCollection property="buttons" destination="zgr-wO-8j4" collectionClass="NSMutableArray" id="mNK-WY-jmD"/>
+                        <outletCollection property="buttons" destination="iRg-3X-S35" collectionClass="NSMutableArray" id="SG3-TC-dYj"/>
+                        <outletCollection property="buttons" destination="2pa-Ac-KLi" collectionClass="NSMutableArray" id="fGw-tS-8ml"/>
+                        <outletCollection property="buttons" destination="VIq-Vm-pTv" collectionClass="NSMutableArray" id="cpX-dh-YHG"/>
+                        <outletCollection property="buttons" destination="ks6-Mv-9zj" collectionClass="NSMutableArray" id="ff8-rM-4NF"/>
+                        <outletCollection property="buttons" destination="Dmy-0g-nWP" collectionClass="NSMutableArray" id="R40-nB-TKO"/>
+                        <outletCollection property="buttons" destination="GwK-fJ-w2B" collectionClass="NSMutableArray" id="b6J-ph-lgR"/>
+                        <outletCollection property="buttons" destination="c32-VH-eDM" collectionClass="NSMutableArray" id="GaL-AK-oJb"/>
+                        <outletCollection property="buttons" destination="Su7-D6-l4y" collectionClass="NSMutableArray" id="krk-tg-1IH"/>
+                        <outletCollection property="buttons" destination="W8V-p6-PV2" collectionClass="NSMutableArray" id="Yxn-QA-6dZ"/>
+                        <outletCollection property="buttons" destination="BlV-4d-hrt" collectionClass="NSMutableArray" id="BgV-Zn-rnK"/>
+                        <outletCollection property="buttons" destination="HqZ-uP-YGL" collectionClass="NSMutableArray" id="pnv-qY-yaC"/>
+                        <outletCollection property="buttons" destination="gye-Ra-gGz" collectionClass="NSMutableArray" id="KL7-yt-bJi"/>
+                        <outletCollection property="buttons" destination="ZnR-5J-lIP" collectionClass="NSMutableArray" id="Jwf-ZX-ZJO"/>
+                        <outletCollection property="buttons" destination="caL-56-rF5" collectionClass="NSMutableArray" id="UkF-lL-Y5I"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

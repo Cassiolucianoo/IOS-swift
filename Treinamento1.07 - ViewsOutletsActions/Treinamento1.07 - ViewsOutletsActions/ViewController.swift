@@ -15,14 +15,28 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
-    @IBOutlet var Buttons: [UIButton]!
+    @IBOutlet var buttons: [UIButton]!
     var nome: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+       // buttons[10]
     }
 
-
+    @IBAction func runSomething(_ sender: UIButton) {
+        print("runSomething")
+    }
+    
+    @IBAction func doSomething(_ sender: Any, forEvent event: UIEvent) {
+        
+        print("doSomething")
+    }
+    
+    @IBAction func change(_ sender: Any) {
+        print("change")
+    }
+    
+    
+    
 }
 
