@@ -16,17 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="wuV-1d-Ru9">
-                                <rect key="frame" x="68" y="295" width="278" height="512"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Vw4-Bc-SDt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wuV-1d-Ru9" secondAttribute="trailing" constant="68" id="1aV-W2-eMo"/>
-                            <constraint firstItem="wuV-1d-Ru9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7fw-9P-aEI"/>
-                            <constraint firstItem="wuV-1d-Ru9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="Cwx-lK-Vq1"/>
-                            <constraint firstItem="wuV-1d-Ru9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="hTp-TI-jnz"/>
+                            <constraint firstItem="Vw4-Bc-SDt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gl4-wF-Hma"/>
+                            <constraint firstAttribute="bottom" secondItem="Vw4-Bc-SDt" secondAttribute="bottom" id="H1K-0h-K70"/>
+                            <constraint firstItem="Vw4-Bc-SDt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="T4S-3t-Fsa"/>
+                            <constraint firstItem="Vw4-Bc-SDt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gpp-f9-uGs"/>
                         </constraints>
                     </view>
                 </viewController>
