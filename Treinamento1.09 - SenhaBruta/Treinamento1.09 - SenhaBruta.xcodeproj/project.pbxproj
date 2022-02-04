@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D87D332727AC134D00D417E9 /* ViewDicasSenha.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D332627AC134D00D417E9 /* ViewDicasSenha.swift */; };
+		D87D332A27AC13A200D417E9 /* ViewSenhaGerada.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D332927AC13A200D417E9 /* ViewSenhaGerada.swift */; };
+		D8BAF8C727AC79A300F4C167 /* GeradorDeSenhas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BAF8C627AC79A300F4C167 /* GeradorDeSenhas.swift */; };
 		D8C0615527A8BC060080880A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0615427A8BC060080880A /* AppDelegate.swift */; };
 		D8C0615727A8BC060080880A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0615627A8BC060080880A /* SceneDelegate.swift */; };
 		D8C0615927A8BC060080880A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C0615827A8BC060080880A /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D87D332627AC134D00D417E9 /* ViewDicasSenha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDicasSenha.swift; sourceTree = "<group>"; };
+		D87D332927AC13A200D417E9 /* ViewSenhaGerada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSenhaGerada.swift; sourceTree = "<group>"; };
+		D8BAF8C627AC79A300F4C167 /* GeradorDeSenhas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeradorDeSenhas.swift; sourceTree = "<group>"; };
 		D8C0615127A8BC060080880A /* Treinamento1.09 - SenhaBruta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento1.09 - SenhaBruta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C0615427A8BC060080880A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8C0615627A8BC060080880A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +66,11 @@
 				D8C0615627A8BC060080880A /* SceneDelegate.swift */,
 				D8C0615827A8BC060080880A /* ViewController.swift */,
 				D8C0615A27A8BC060080880A /* Main.storyboard */,
+				D87D332927AC13A200D417E9 /* ViewSenhaGerada.swift */,
+				D87D332627AC134D00D417E9 /* ViewDicasSenha.swift */,
 				D8C0615D27A8BC070080880A /* Assets.xcassets */,
 				D8C0615F27A8BC070080880A /* LaunchScreen.storyboard */,
+				D8BAF8C627AC79A300F4C167 /* GeradorDeSenhas.swift */,
 				D8C0616227A8BC070080880A /* Info.plist */,
 			);
 			path = "Treinamento1.09 - SenhaBruta";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8C0615927A8BC060080880A /* ViewController.swift in Sources */,
+				D87D332727AC134D00D417E9 /* ViewDicasSenha.swift in Sources */,
 				D8C0615527A8BC060080880A /* AppDelegate.swift in Sources */,
+				D87D332A27AC13A200D417E9 /* ViewSenhaGerada.swift in Sources */,
 				D8C0615727A8BC060080880A /* SceneDelegate.swift in Sources */,
+				D8BAF8C727AC79A300F4C167 /* GeradorDeSenhas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
