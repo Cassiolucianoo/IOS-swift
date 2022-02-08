@@ -67,7 +67,7 @@ class GeradorDeSenhas {
         let usarArray = Array(usar)
         while senhas.count < total {
             var senha = ""
-            for _ in 1...numeroDeLetras{
+            for _ in 1...numeroDeLetras {
                 let index = Int(arc4random_uniform(UInt32(usarArray.count)))
                 senha += String(usarArray[index])
             }
