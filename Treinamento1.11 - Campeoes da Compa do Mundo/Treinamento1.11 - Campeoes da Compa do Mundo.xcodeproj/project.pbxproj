@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		D86FA18627B4A9C000D3E0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA18527B4A9C000D3E0CB /* AppDelegate.swift */; };
 		D86FA18827B4A9C000D3E0CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA18727B4A9C000D3E0CB /* SceneDelegate.swift */; };
-		D86FA18A27B4A9C000D3E0CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA18927B4A9C000D3E0CB /* ViewController.swift */; };
 		D86FA18D27B4A9C000D3E0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86FA18B27B4A9C000D3E0CB /* Main.storyboard */; };
 		D86FA18F27B4A9C000D3E0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D86FA18E27B4A9C000D3E0CB /* Assets.xcassets */; };
 		D86FA19227B4A9C000D3E0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D86FA19027B4A9C000D3E0CB /* LaunchScreen.storyboard */; };
+		D86FA19B27B5EE3600D3E0CB /* VencedorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA19A27B5EE3600D3E0CB /* VencedorTableViewController.swift */; };
+		D86FA1A427B5F07500D3E0CB /* CampeosCopaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA1A327B5F07500D3E0CB /* CampeosCopaViewController.swift */; };
+		D86FA1A927B5F4DD00D3E0CB /* CopaDoMundo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA1A827B5F4DD00D3E0CB /* CopaDoMundo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D86FA18227B4A9C000D3E0CB /* Treinamento1.11 - Campeoes da Compa do Mundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento1.11 - Campeoes da Compa do Mundo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FA18527B4A9C000D3E0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D86FA18727B4A9C000D3E0CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D86FA18927B4A9C000D3E0CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D86FA18C27B4A9C000D3E0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D86FA18E27B4A9C000D3E0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D86FA19127B4A9C000D3E0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D86FA19327B4A9C000D3E0CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D86FA19A27B5EE3600D3E0CB /* VencedorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VencedorTableViewController.swift; sourceTree = "<group>"; };
+		D86FA1A327B5F07500D3E0CB /* CampeosCopaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampeosCopaViewController.swift; sourceTree = "<group>"; };
+		D86FA1A827B5F4DD00D3E0CB /* CopaDoMundo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopaDoMundo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,49 @@
 		D86FA18427B4A9C000D3E0CB /* Treinamento1.11 - Campeoes da Compa do Mundo */ = {
 			isa = PBXGroup;
 			children = (
+				D86FA1A727B5F38400D3E0CB /* Model */,
+				D86FA19D27B5EE8D00D3E0CB /* Views */,
+				D86FA1A127B5EF3A00D3E0CB /* Controllers */,
+				D86FA1A227B5EF7F00D3E0CB /* Files */,
 				D86FA18527B4A9C000D3E0CB /* AppDelegate.swift */,
 				D86FA18727B4A9C000D3E0CB /* SceneDelegate.swift */,
-				D86FA18927B4A9C000D3E0CB /* ViewController.swift */,
-				D86FA18B27B4A9C000D3E0CB /* Main.storyboard */,
 				D86FA18E27B4A9C000D3E0CB /* Assets.xcassets */,
-				D86FA19027B4A9C000D3E0CB /* LaunchScreen.storyboard */,
 				D86FA19327B4A9C000D3E0CB /* Info.plist */,
 			);
 			path = "Treinamento1.11 - Campeoes da Compa do Mundo";
+			sourceTree = "<group>";
+		};
+		D86FA19D27B5EE8D00D3E0CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D86FA18B27B4A9C000D3E0CB /* Main.storyboard */,
+				D86FA19027B4A9C000D3E0CB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D86FA1A127B5EF3A00D3E0CB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D86FA19A27B5EE3600D3E0CB /* VencedorTableViewController.swift */,
+				D86FA1A327B5F07500D3E0CB /* CampeosCopaViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D86FA1A227B5EF7F00D3E0CB /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D86FA1A727B5F38400D3E0CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D86FA1A827B5F4DD00D3E0CB /* CopaDoMundo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D86FA18A27B4A9C000D3E0CB /* ViewController.swift in Sources */,
+				D86FA1A927B5F4DD00D3E0CB /* CopaDoMundo.swift in Sources */,
+				D86FA1A427B5F07500D3E0CB /* CampeosCopaViewController.swift in Sources */,
 				D86FA18627B4A9C000D3E0CB /* AppDelegate.swift in Sources */,
 				D86FA18827B4A9C000D3E0CB /* SceneDelegate.swift in Sources */,
+				D86FA19B27B5EE3600D3E0CB /* VencedorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
