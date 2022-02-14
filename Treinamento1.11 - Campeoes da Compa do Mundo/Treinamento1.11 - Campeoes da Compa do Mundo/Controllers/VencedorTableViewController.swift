@@ -29,9 +29,9 @@ class VencedorTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
+  override func numberOfSections(in tableView: UITableView) -> Int {
+      // #warning Incomplete implementation, return the number of sections
+      return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -43,14 +43,17 @@ class VencedorTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 
-        // Configure the cell...
-
+        let copaMund = copaMundo[indexPath.row]
+        
+        cell.textLabel?.text = "Copa \(copaMund.year) - \(copaMund.country)"
+        cell.detailTextLabel?.text = "Copa \(copaMund.winner)  Vs \(copaMund.vice)"
+        print("Opa \(copaMund.year)")
         return cell
     }
     
 
     /*
-    // Override to support conditional editing of the table view.
+     Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
         return true
