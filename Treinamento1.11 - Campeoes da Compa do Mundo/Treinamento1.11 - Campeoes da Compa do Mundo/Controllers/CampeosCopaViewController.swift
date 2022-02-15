@@ -8,22 +8,31 @@
 import UIKit
 
 class CampeosCopaViewController: UIViewController {
-
+    
+    
+    var copaMundo: CopaMundo!
+    @IBOutlet weak var ivVencedor: UIImageView!
+    @IBOutlet weak var ivVice: UIImageView!
+    @IBOutlet weak var lbVice: UILabel!
+    @IBOutlet weak var lbPontos: UILabel!
+    @IBOutlet weak var lbVencedor: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Copa Do Mundo \(copaMundo.year)"
+        
+        ivVencedor.image = UIImage(named: "\(copaMundo.winner).png")
+        ivVice.image = UIImage(named: "\(copaMundo.vice).png")
+        
+        lbVice.text = copaMundo.vice
+        
+        lbVencedor.text = copaMundo.winner
+        
+        lbPontos.text = "\(copaMundo.winnerScore) x \(copaMundo.viceScore)"
 
         // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
