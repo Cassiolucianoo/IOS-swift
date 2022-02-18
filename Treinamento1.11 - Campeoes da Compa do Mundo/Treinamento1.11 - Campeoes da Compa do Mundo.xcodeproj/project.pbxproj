@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D867865B27BF29F100DC1D8C /* JogosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D867865A27BF29F100DC1D8C /* JogosTableViewCell.swift */; };
 		D86F223127BBFFFA0023BB34 /* CopaMundoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86F223027BBFFFA0023BB34 /* CopaMundoTableViewCell.swift */; };
 		D86FA18627B4A9C000D3E0CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA18527B4A9C000D3E0CB /* AppDelegate.swift */; };
 		D86FA18827B4A9C000D3E0CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86FA18727B4A9C000D3E0CB /* SceneDelegate.swift */; };
@@ -69,6 +70,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D867865A27BF29F100DC1D8C /* JogosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogosTableViewCell.swift; sourceTree = "<group>"; };
 		D86F223027BBFFFA0023BB34 /* CopaMundoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopaMundoTableViewCell.swift; sourceTree = "<group>"; };
 		D86FA18227B4A9C000D3E0CB /* Treinamento1.11 - Campeoes da Compa do Mundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento1.11 - Campeoes da Compa do Mundo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86FA18527B4A9C000D3E0CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				D86FA19A27B5EE3600D3E0CB /* VencedorTableViewController.swift */,
 				D86FA1A327B5F07500D3E0CB /* CampeosCopaViewController.swift */,
 				D86F223027BBFFFA0023BB34 /* CopaMundoTableViewCell.swift */,
+				D867865A27BF29F100DC1D8C /* JogosTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				D86F223127BBFFFA0023BB34 /* CopaMundoTableViewCell.swift in Sources */,
 				D86FA1A927B5F4DD00D3E0CB /* CopaMundo.swift in Sources */,
 				D86FA1A427B5F07500D3E0CB /* CampeosCopaViewController.swift in Sources */,
+				D867865B27BF29F100DC1D8C /* JogosTableViewCell.swift in Sources */,
 				D86FA18627B4A9C000D3E0CB /* AppDelegate.swift in Sources */,
 				D86FA18827B4A9C000D3E0CB /* SceneDelegate.swift in Sources */,
 				D86FA19B27B5EE3600D3E0CB /* VencedorTableViewController.swift in Sources */,

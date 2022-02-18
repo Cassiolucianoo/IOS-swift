@@ -16,6 +16,8 @@ class CampeosCopaViewController: UIViewController {
     @IBOutlet weak var lbVice: UILabel!
     @IBOutlet weak var lbPontos: UILabel!
     @IBOutlet weak var lbVencedor: UILabel!
+    @IBOutlet weak var tableView: UITableView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,7 +34,37 @@ class CampeosCopaViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+
+}
+
+extension CampeosCopaViewController: UITableViewDataSource{
     
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return copaMundo.matches.count
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let games = copaMundo.matches[section].games
+        return games.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell =  tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! JogosTableViewCell
+        
+        let  fase  = copaMundo.matches[indexPath.section]
+        let jogo = fase.games[indexPath.row]
+        
+        cell.prepare(with: jogo)
+        
+        return cell
+        
+    }
+    
+    
+}
 
-
+extension CampeosCopaViewController: UITableViewDelegate{
+    
 }
