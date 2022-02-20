@@ -16,7 +16,9 @@ class CampeosCopaViewController: UIViewController {
     @IBOutlet weak var lbVice: UILabel!
     @IBOutlet weak var lbPontos: UILabel!
     @IBOutlet weak var lbVencedor: UILabel!
+ 
     @IBOutlet weak var tableView: UITableView!
+    
     
     
     override func viewDidLoad() {
