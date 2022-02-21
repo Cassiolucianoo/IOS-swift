@@ -223,10 +223,6 @@
                                                     <rect key="frame" x="9" y="6" width="46" height="32"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brasil.png" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-cT-Zzx">
-                                                    <rect key="frame" x="357" y="4" width="46" height="32"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brasil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggL-YE-hS8">
                                                     <rect key="frame" x="63" y="12" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -242,14 +238,25 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Brasil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PE3-Lb-VQg">
-                                                    <rect key="frame" x="311" y="10" width="42" height="21"/>
+                                                    <rect key="frame" x="266" y="10" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brasil.png" translatesAutoresizingMaskIntoConstraints="NO" id="6lL-cT-Zzx">
+                                                    <rect key="frame" x="323" y="4" width="46" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="ivCasa" destination="YgH-ja-GDL" id="ABs-fK-KzF"/>
+                                            <outlet property="ivVisitante" destination="6lL-cT-Zzx" id="rze-Hb-ufM"/>
+                                            <outlet property="lbCasa" destination="ggL-YE-hS8" id="NVU-mD-ODy"/>
+                                            <outlet property="lbPonto" destination="EAv-Y9-yoP" id="w6M-Vr-6L0"/>
+                                            <outlet property="lbVistante" destination="PE3-Lb-VQg" id="dPC-ac-xAv"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
