@@ -14,6 +14,7 @@
 		D871E93927C440AB00F96043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D871E93727C440AB00F96043 /* LaunchScreen.storyboard */; };
 		D87DE92D27C5C485002E5E9C /* LugarEncontradoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DE92C27C5C485002E5E9C /* LugarEncontradoViewController.swift */; };
 		D87DE93027C5C73D002E5E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D871E93527C440AB00F96043 /* Assets.xcassets */; };
+		D880486F27C9CD0D0009EA45 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D880486E27C9CD0D0009EA45 /* MapaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D871E93827C440AB00F96043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D871E93A27C440AB00F96043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D87DE92C27C5C485002E5E9C /* LugarEncontradoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LugarEncontradoViewController.swift; sourceTree = "<group>"; };
+		D880486E27C9CD0D0009EA45 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				D871E93A27C440AB00F96043 /* Info.plist */,
 				D8675BFE27C482310026F3E5 /* LugaresTableViewControlleTableViewController.swift */,
 				D87DE92C27C5C485002E5E9C /* LugarEncontradoViewController.swift */,
+				D880486E27C9CD0D0009EA45 /* MapaViewController.swift */,
 			);
 			path = "Treinamento1.12- Manipulando mapas";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				D871E92D27C440AA00F96043 /* AppDelegate.swift in Sources */,
 				D87DE92D27C5C485002E5E9C /* LugarEncontradoViewController.swift in Sources */,
+				D880486F27C9CD0D0009EA45 /* MapaViewController.swift in Sources */,
 				D871E92F27C440AA00F96043 /* SceneDelegate.swift in Sources */,
 				D8675BFF27C482310026F3E5 /* LugaresTableViewControlleTableViewController.swift in Sources */,
 			);
