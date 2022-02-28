@@ -15,6 +15,9 @@ class LugarEncontradoViewController: UIViewController {
     @IBOutlet weak var aiLoading: UIActivityIndicatorView!
     @IBOutlet weak var viLoading: UIView!
     
+    var local: Locais!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -25,9 +28,29 @@ class LugarEncontradoViewController: UIViewController {
         let end = tfCidade.text!
         carregar(show: true)
         let geoCodigo = CLGeocoder()
-        geoCodigo.geocodeAddressString(end) { (placemarks, error) in
-            self.viLoading(show: false)
+        geoCodigo.geocodeAddressString(end) {(placemarks, error) in self.carregar(show: false)
+            if error == nil {
+                if self.savarLogar(with: placemarks?.first){
+                    print("Cara , achamos alguma coisa")
+                }else {
+                    print("Cara estamos perdidos encontramos nada!!!")
+                }
+            }
+            
+           // guard let placemark = placemarks?.first else {return}
+           // print(Locais.getFormatarEndereco(with: placemark))
         }
+    }
+    
+    func savarLogar (with placemark: CLPlacemark?)-> Bool {
+        guard  let placemark = placemark, let coordenada = placemark.location?.coordinate else {
+            return false
+        }
+        let nome = placemark.name   ?? placemark.country ?? "Sei lá"
+        let end = Locais.getFormatarEndereco(with: placemark)
+        local = Locais(nome: nome, latitude: coordenada.latitude, longitude: coordenada.longitude, endereco: end)
+        
+        return true
     }
     
     func carregar(show: Bool)  {

@@ -23,7 +23,7 @@ struct Locais {
                 end += rua  //rua
             }
         if let numero = placemark.subThoroughfare{
-            end += "\( numero )"   // numero
+            end += " \( numero )"   // numero
         }
         
         if let subLocalizacao = placemark.subLocality{
@@ -31,16 +31,16 @@ struct Locais {
         }
         
         if let cidade = placemark.locality{
-            end += "\n \( cidade)"  //cidade
+            end += "\n\( cidade)"  //cidade
         }
         if let estado = placemark.administrativeArea{
-            end += "\( estado )"  //estado
+            end += " - \( estado )"  //estado
         }
         if let cep = placemark.postalCode{
-            end += "\nCep: \( cep)"  //estado
+            end += "\nCEP: \( cep)"  //estado
         }
         if let pais = placemark.country{
-            end += "\( pais )"  //pais
+            end += "\n\( pais )"  //pais
         }
         return end
         }
