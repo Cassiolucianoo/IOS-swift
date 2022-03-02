@@ -10,12 +10,12 @@ import MapKit
 
 class LugarEncontradoViewController: UIViewController {
     
-     µ
-    PlaceFinderMessageType{
+    
+    enum  PlaceFinderMessageType{
         case error(String)
         case confirmation(String)
     }
-
+    
     @IBOutlet weak var tfCidade: UITextField!
     @IBOutlet weak var mapaView: MKMapView!
     @IBOutlet weak var aiLoading: UIActivityIndicatorView!
@@ -29,24 +29,23 @@ class LugarEncontradoViewController: UIViewController {
     }
     
     
-    @IBAction func buscarCidade(_ sender: Any) {
+    @IBAction func buscarCidade(_ sender: UIButton) {
         tfCidade.resignFirstResponder()
         let end = tfCidade.text!
         carregar(show: true)
         let geoCodigo = CLGeocoder()
         geoCodigo.geocodeAddressString(end) {(placemarks, error) in self.carregar(show: false)
             if error == nil {
-                if self.savarLogar(with: placemarks?.first){
-                    print("Cara , achamos alguma coisa")
+                if !self.savarLogar(with: placemarks?.first){
+                    self.mostrarAlerta(type: .error("Não encontramos locais com esse nome"))
+                }
                 }else {
-                    print("Cara estamos perdidos encontramos nada!!!")
+                    self.mostrarAlerta(type: .error("Que erro desconhecido "))
                 }
             }
             
-           // guard let placemark = placemarks?.first else {return}
-           // print(Locais.getFormatarEndereco(with: placemark))
         }
-    }
+    
     
     func savarLogar (with placemark: CLPlacemark?)-> Bool {
         guard  let placemark = placemark, let coordenada = placemark.location?.coordinate else {
@@ -56,8 +55,16 @@ class LugarEncontradoViewController: UIViewController {
         let end = Locais.getFormatarEndereco(with: placemark)
         local = Locais(nome: nome, latitude: coordenada.latitude, longitude: coordenada.longitude, endereco: end)
         
+       let region = MKCoordinateRegion(center: coordenada, latitudinalMeters: 3000, longitudinalMeters: 3500)
+        mapaView.setRegion(region, animated: true)
+        
+        self.mostrarAlerta (type: .confirmation(local.nome))
+        
         return true
     }
+    
+    
+    
     
     func carregar(show: Bool)  {
         viLoading.isHidden = !show
@@ -68,14 +75,21 @@ class LugarEncontradoViewController: UIViewController {
         }
     }
     
-    func mostrarAlerta(){
+    @IBAction func fecharMapa(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
+    
+    
+    func mostrarAlerta(type: PlaceFinderMessageType){
         let title: String, message: String
-        var hasConfirmacao bool = false
+        var hasConfirmacao: Bool = false
         
         switch type {
-        case .confimacao(let name):
+        case .confirmation(let name):
             title = "Local encontrado"
-            message = "Deseja adicionar"
+            message = "Deseja adicionar \(name)"
             hasConfirmacao =  true
         case .error(let errorMessage):
             title = "Erro"
@@ -83,19 +97,17 @@ class LugarEncontradoViewController: UIViewController {
         }
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        let cancelarAcao  = UIAlertAction(title: "OK", style: .default) { (action) in
-            print("oK!!")
-        })
-        alert.addActio(confirmaAction)
+        
+        let cancelarAcao  = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+        alert.addAction(cancelarAcao)
+        if hasConfirmacao{
+            let confirmacao = UIAlertAction(title: "OK", style: .default, handler: { (action) in
+                print("Ok")
+            })
+            
+            alert.addAction(confirmacao)
+        }
+        present(alert, animated: true, completion: nil)
         
     }
-    present{alert, animated: true, completio: nill}
-}
-    @IBAction func fecharMapa(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-   
-
-
 }
