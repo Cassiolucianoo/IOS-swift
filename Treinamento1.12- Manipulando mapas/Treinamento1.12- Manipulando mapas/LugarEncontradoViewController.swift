@@ -9,6 +9,12 @@ import UIKit
 import MapKit
 
 class LugarEncontradoViewController: UIViewController {
+    
+     µ
+    PlaceFinderMessageType{
+        case error(String)
+        case confirmation(String)
+    }
 
     @IBOutlet weak var tfCidade: UITextField!
     @IBOutlet weak var mapaView: MKMapView!
@@ -62,6 +68,29 @@ class LugarEncontradoViewController: UIViewController {
         }
     }
     
+    func mostrarAlerta(){
+        let title: String, message: String
+        var hasConfirmacao bool = false
+        
+        switch type {
+        case .confimacao(let name):
+            title = "Local encontrado"
+            message = "Deseja adicionar"
+            hasConfirmacao =  true
+        case .error(let errorMessage):
+            title = "Erro"
+            message = errorMessage
+        }
+        
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let cancelarAcao  = UIAlertAction(title: "OK", style: .default) { (action) in
+            print("oK!!")
+        })
+        alert.addActio(confirmaAction)
+        
+    }
+    present{alert, animated: true, completio: nill}
+}
     @IBAction func fecharMapa(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
