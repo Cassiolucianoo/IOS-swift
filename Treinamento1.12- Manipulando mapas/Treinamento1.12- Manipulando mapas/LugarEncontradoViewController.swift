@@ -36,7 +36,7 @@ class LugarEncontradoViewController: UIViewController {
         let geoCodigo = CLGeocoder()
         geoCodigo.geocodeAddressString(end) {(placemarks, error) in self.carregar(show: false)
             if error == nil {
-                if !self.savarLogar(with: placemarks?.first){
+                if !self.salvarLugar(with: placemarks?.first){
                     self.mostrarAlerta(type: .error("Não encontramos locais com esse nome"))
                 }
                 }else {
@@ -47,15 +47,15 @@ class LugarEncontradoViewController: UIViewController {
         }
     
     
-    func savarLogar (with placemark: CLPlacemark?)-> Bool {
-        guard  let placemark = placemark, let coordenada = placemark.location?.coordinate else {
+    func salvarLugar (with placemark: CLPlacemark?)-> Bool {
+        guard  let placemark = placemark, let coordinate = placemark.location?.coordinate else {
             return false
         }
-        let nome = placemark.name   ?? placemark.country ?? "Sei lá"
+        let nome = placemark.name ?? placemark.country ?? "Sei lá"
         let end = Locais.getFormatarEndereco(with: placemark)
-        local = Locais(nome: nome, latitude: coordenada.latitude, longitude: coordenada.longitude, endereco: end)
+        local = Locais(nome: nome, latitude: coordinate.latitude, longitude: coordinate.longitude, endereco: end)
         
-       let region = MKCoordinateRegion(center: coordenada, latitudinalMeters: 3000, longitudinalMeters: 3500)
+        let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
         mapaView.setRegion(region, animated: true)
         
         self.mostrarAlerta (type: .confirmation(local.nome))
