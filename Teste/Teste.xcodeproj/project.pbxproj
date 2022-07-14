@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8766775287D15CC00C35D14 /* ViewControllerSeach.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766774287D15CC00C35D14 /* ViewControllerSeach.swift */; };
+		D8766777287D21EE00C35D14 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766776287D21EE00C35D14 /* Movie.swift */; };
+		D8766779287D231700C35D14 /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8766778287D231700C35D14 /* MovieManager.swift */; };
+		D876677D287D286F00C35D14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876677C287D286F00C35D14 /* Constants.swift */; };
+		D8766780287D31B500C35D14 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D876677F287D31B500C35D14 /* MovieCell.swift */; };
+		D8766782287D31D700C35D14 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8766781287D31D700C35D14 /* MovieCell.xib */; };
 		D892D2B9287B3A900009743D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892D2B8287B3A900009743D /* AppDelegate.swift */; };
 		D892D2BB287B3A900009743D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892D2BA287B3A900009743D /* SceneDelegate.swift */; };
-		D892D2BD287B3A900009743D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892D2BC287B3A900009743D /* ViewController.swift */; };
+		D892D2BD287B3A900009743D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D892D2BC287B3A900009743D /* MoviesViewController.swift */; };
 		D892D2C0287B3A900009743D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D892D2BE287B3A900009743D /* Main.storyboard */; };
 		D892D2C2287B3A920009743D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D892D2C1287B3A920009743D /* Assets.xcassets */; };
 		D892D2C5287B3A930009743D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D892D2C3287B3A930009743D /* LaunchScreen.storyboard */; };
@@ -20,10 +26,16 @@
 		284B700F1BA056A38986A2CA /* Pods_Teste.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3028E40F74D7AFB6CCC0CB51 /* Pods-Teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste.release.xcconfig"; path = "Target Support Files/Pods-Teste/Pods-Teste.release.xcconfig"; sourceTree = "<group>"; };
 		9843E0CAED322ECE81AF57FA /* Pods-Teste.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste.debug.xcconfig"; path = "Target Support Files/Pods-Teste/Pods-Teste.debug.xcconfig"; sourceTree = "<group>"; };
+		D8766774287D15CC00C35D14 /* ViewControllerSeach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSeach.swift; sourceTree = "<group>"; };
+		D8766776287D21EE00C35D14 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D8766778287D231700C35D14 /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		D876677C287D286F00C35D14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D876677F287D31B500C35D14 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D8766781287D31D700C35D14 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		D892D2B5287B3A900009743D /* Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teste.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D892D2B8287B3A900009743D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D892D2BA287B3A900009743D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D892D2BC287B3A900009743D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D892D2BC287B3A900009743D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D892D2BF287B3A900009743D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D892D2C1287B3A920009743D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D892D2C4287B3A930009743D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,8 +60,16 @@
 				9843E0CAED322ECE81AF57FA /* Pods-Teste.debug.xcconfig */,
 				3028E40F74D7AFB6CCC0CB51 /* Pods-Teste.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D876677E287D319A00C35D14 /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				D876677F287D31B500C35D14 /* MovieCell.swift */,
+				D8766781287D31D700C35D14 /* MovieCell.xib */,
+			);
+			path = Movies;
 			sourceTree = "<group>";
 		};
 		D892D2AC287B3A8F0009743D = {
@@ -73,15 +93,52 @@
 		D892D2B7287B3A900009743D /* Teste */ = {
 			isa = PBXGroup;
 			children = (
-				D892D2B8287B3A900009743D /* AppDelegate.swift */,
+				D892D2CC287B480E0009743D /* Models */,
+				D892D2CD287B482A0009743D /* Views */,
+				D892D2CE287B483D0009743D /* Controllers */,
 				D892D2BA287B3A900009743D /* SceneDelegate.swift */,
-				D892D2BC287B3A900009743D /* ViewController.swift */,
-				D892D2BE287B3A900009743D /* Main.storyboard */,
-				D892D2C1287B3A920009743D /* Assets.xcassets */,
-				D892D2C3287B3A930009743D /* LaunchScreen.storyboard */,
+				D892D2B8287B3A900009743D /* AppDelegate.swift */,
 				D892D2C6287B3A930009743D /* Info.plist */,
+				D876677C287D286F00C35D14 /* Constants.swift */,
+				D892D2CF287B48C60009743D /* Files */,
 			);
 			path = Teste;
+			sourceTree = "<group>";
+		};
+		D892D2CC287B480E0009743D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8766776287D21EE00C35D14 /* Movie.swift */,
+				D8766778287D231700C35D14 /* MovieManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D892D2CD287B482A0009743D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D892D2BE287B3A900009743D /* Main.storyboard */,
+				D892D2C3287B3A930009743D /* LaunchScreen.storyboard */,
+				D876677E287D319A00C35D14 /* Movies */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D892D2CE287B483D0009743D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8766774287D15CC00C35D14 /* ViewControllerSeach.swift */,
+				D892D2BC287B3A900009743D /* MoviesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D892D2CF287B48C60009743D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D892D2C1287B3A920009743D /* Assets.xcassets */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 		E11B9AD53DDBA33DDB06183F /* Frameworks */ = {
@@ -103,6 +160,7 @@
 				D892D2B1287B3A900009743D /* Sources */,
 				D892D2B2287B3A900009743D /* Frameworks */,
 				D892D2B3287B3A900009743D /* Resources */,
+				49FA792A1499ECED210F5387 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +210,7 @@
 			files = (
 				D892D2C5287B3A930009743D /* LaunchScreen.storyboard in Resources */,
 				D892D2C2287B3A920009743D /* Assets.xcassets in Resources */,
+				D8766782287D31D700C35D14 /* MovieCell.xib in Resources */,
 				D892D2C0287B3A900009743D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +218,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		49FA792A1499ECED210F5387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teste/Pods-Teste-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Teste/Pods-Teste-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Teste/Pods-Teste-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7514DA264EBB67EEA0180007 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,9 +264,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D892D2BD287B3A900009743D /* ViewController.swift in Sources */,
+				D892D2BD287B3A900009743D /* MoviesViewController.swift in Sources */,
 				D892D2B9287B3A900009743D /* AppDelegate.swift in Sources */,
+				D8766780287D31B500C35D14 /* MovieCell.swift in Sources */,
 				D892D2BB287B3A900009743D /* SceneDelegate.swift in Sources */,
+				D8766775287D15CC00C35D14 /* ViewControllerSeach.swift in Sources */,
+				D8766779287D231700C35D14 /* MovieManager.swift in Sources */,
+				D8766777287D21EE00C35D14 /* Movie.swift in Sources */,
+				D876677D287D286F00C35D14 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Teste/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Teste/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
