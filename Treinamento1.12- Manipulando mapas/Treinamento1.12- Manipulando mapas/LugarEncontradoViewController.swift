@@ -26,6 +26,31 @@ class LugarEncontradoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let gesture = UILongPressGestureRecognizer(target: self, action: #selector(getLocalizacao(_:)))
+        gesture.minimumPressDuration = 2.0
+        mapaView.addGestureRecognizer(gesture)
+    }
+    
+    
+    @objc func getLocalizacao(_ gesture: UILongPressGestureRecognizer){
+        if gesture.state == .began{
+            carregar(show: true)
+            let point = gesture.location(in: mapaView)
+            let coordinate = mapaView.convert(point, toCoordinateFrom: mapaView)
+            let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
+            CLGeocoder() .reverseGeocodeLocation(location, completionHandler: {(placemarks, error) in
+                self.carregar(show: false)
+                if error == nil {
+                    if !self.salvarLugar(with: placemarks?.first){
+                        self.mostrarAlerta(type: .error("Não encontramos locais com esse nome"))
+                    }
+                }else {
+                    self.mostrarAlerta(type: .error("Que erro desconhecido "))
+                }
+                
+            })
+            
+        }
     }
     
     
@@ -39,12 +64,12 @@ class LugarEncontradoViewController: UIViewController {
                 if !self.salvarLugar(with: placemarks?.first){
                     self.mostrarAlerta(type: .error("Não encontramos locais com esse nome"))
                 }
-                }else {
-                    self.mostrarAlerta(type: .error("Que erro desconhecido "))
-                }
+            }else {
+                self.mostrarAlerta(type: .error("Que erro desconhecido "))
             }
-            
         }
+        
+    }
     
     
     func salvarLugar (with placemark: CLPlacemark?)-> Bool {
@@ -63,9 +88,6 @@ class LugarEncontradoViewController: UIViewController {
         return true
     }
     
-    
-    
-    
     func carregar(show: Bool)  {
         viLoading.isHidden = !show
         if show {
@@ -78,9 +100,6 @@ class LugarEncontradoViewController: UIViewController {
     @IBAction func fecharMapa(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-    
-    
-    
     
     func mostrarAlerta(type: PlaceFinderMessageType){
         let title: String, message: String
