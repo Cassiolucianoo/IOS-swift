@@ -8,9 +8,12 @@
 import UIKit
 import MapKit
 
-class LugarEncontradoViewController: UIViewController {
-    
-    
+protocol PlaceFinderDelegate: AnyObject {
+    func addPlace(_ place: Place)
+}
+
+class PlaceFinderViewController: UIViewController {
+
     enum  PlaceFinderMessageType{
         case error(String)
         case confirmation(String)
@@ -21,8 +24,8 @@ class LugarEncontradoViewController: UIViewController {
     @IBOutlet weak var aiLoading: UIActivityIndicatorView!
     @IBOutlet weak var viLoading: UIView!
     
-    var local: Locais!
-    
+    var place: Place!
+    weak var delegate: PlaceFinderDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -77,13 +80,13 @@ class LugarEncontradoViewController: UIViewController {
             return false
         }
         let nome = placemark.name ?? placemark.country ?? "Sei lá"
-        let end = Locais.getFormatarEndereco(with: placemark)
-        local = Locais(nome: nome, latitude: coordinate.latitude, longitude: coordinate.longitude, endereco: end)
+        let end = Place.getFormatarEndereco(with: placemark)
+        place = Place(nome: nome, latitude: coordinate.latitude, longitude: coordinate.longitude, endereco: end)
         
         let region = MKCoordinateRegion(center: coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
         mapaView.setRegion(region, animated: true)
         
-        self.mostrarAlerta (type: .confirmation(local.nome))
+        self.mostrarAlerta (type: .confirmation(place.nome))
         
         return true
     }
@@ -121,7 +124,8 @@ class LugarEncontradoViewController: UIViewController {
         alert.addAction(cancelarAcao)
         if hasConfirmacao{
             let confirmacao = UIAlertAction(title: "OK", style: .default, handler: { (action) in
-                print("Ok")
+                self.delegate?.addPlace(self.place)
+                self.dismiss(animated: true, completion: nil)
             })
             
             alert.addAction(confirmacao)
