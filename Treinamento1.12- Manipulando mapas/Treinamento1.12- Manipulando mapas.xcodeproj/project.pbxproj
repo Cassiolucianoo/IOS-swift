@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D8670D1F27CC616A00C6396F /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8670D1E27CC616A00C6396F /* Place.swift */; };
+		D8670D1F27CC616A00C6396F /* place.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8670D1E27CC616A00C6396F /* place.swift */; };
 		D8675BFF27C482310026F3E5 /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8675BFE27C482310026F3E5 /* PlacesTableViewController.swift */; };
 		D871E92D27C440AA00F96043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D871E92C27C440AA00F96043 /* AppDelegate.swift */; };
 		D871E92F27C440AA00F96043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D871E92E27C440AA00F96043 /* SceneDelegate.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D8670D1E27CC616A00C6396F /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		D8670D1E27CC616A00C6396F /* place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = place.swift; sourceTree = "<group>"; };
 		D8675BFE27C482310026F3E5 /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
 		D871E92927C440AA00F96043 /* Treinamento1.12- Manipulando mapas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento1.12- Manipulando mapas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D871E92C27C440AA00F96043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				D8675BFE27C482310026F3E5 /* PlacesTableViewController.swift */,
 				D87DE92C27C5C485002E5E9C /* PlaceFinderViewController.swift */,
 				D880486E27C9CD0D0009EA45 /* MapaViewController.swift */,
-				D8670D1E27CC616A00C6396F /* Place.swift */,
+				D8670D1E27CC616A00C6396F /* place.swift */,
 			);
 			path = "Treinamento1.12- Manipulando mapas";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 			files = (
 				D871E92D27C440AA00F96043 /* AppDelegate.swift in Sources */,
 				D87DE92D27C5C485002E5E9C /* PlaceFinderViewController.swift in Sources */,
-				D8670D1F27CC616A00C6396F /* Place.swift in Sources */,
+				D8670D1F27CC616A00C6396F /* place.swift in Sources */,
 				D880486F27C9CD0D0009EA45 /* MapaViewController.swift in Sources */,
 				D871E92F27C440AA00F96043 /* SceneDelegate.swift in Sources */,
 				D8675BFF27C482310026F3E5 /* PlacesTableViewController.swift in Sources */,

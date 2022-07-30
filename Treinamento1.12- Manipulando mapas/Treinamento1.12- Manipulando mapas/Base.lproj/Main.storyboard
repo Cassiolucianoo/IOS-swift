@@ -54,12 +54,12 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="oRE-dU-We1"/>
                         <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="acv-Qc-EFc">
                             <connections>
-                                <segue destination="pTY-i7-BLL" kind="presentation" identifier="Segue" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="Xkn-qz-woQ"/>
+                                <segue destination="pTY-i7-BLL" kind="presentation" identifier="finderSegue" modalPresentationStyle="overFullScreen" modalTransitionStyle="crossDissolve" id="Xkn-qz-woQ"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="zX9-kl-ODH" kind="show" identifier="mapaSegue" id="vqs-F9-b7Y"/>
+                        <segue destination="zX9-kl-ODH" kind="show" identifier="mapSegue" id="vqs-F9-b7Y"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XAk-Ja-0Q3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -160,6 +160,7 @@
                         <outlet property="lbNomeLocal" destination="1Jv-56-dkw" id="SSt-Yi-Q5X"/>
                         <outlet property="mpView" destination="rBX-My-GT5" id="LxP-c2-Uth"/>
                         <outlet property="searchBarPesquisa" destination="We8-uJ-0rv" id="po2-RE-AP2"/>
+                        <outlet property="viInfo" destination="36w-h7-crq" id="qTq-Vx-tVr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Jo-Gb-Owo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
