@@ -22,6 +22,7 @@ class MapaViewController: UIViewController {
         super.viewDidLoad()
         searchBarPesquisa.isHidden = true
         viInfo.isHidden = true
+        mpView.delegate = self
         
         if places.count == 1 {
             title = places[0].nome
@@ -36,7 +37,7 @@ class MapaViewController: UIViewController {
     }
     
     func addToMap(_ place : Place){
-        let annotation = MKPointAnnotation()
+        let annotation = placeAnnotation(coodinate: place.coordenada, Type: .place)
         annotation.coordinate = place.coordenada
         annotation.title = place.nome
         mpView.addAnnotation(annotation)
@@ -53,4 +54,23 @@ class MapaViewController: UIViewController {
     @IBAction func mostrarPesquisa(_ sender: Any) {
     }
     
+}
+
+extension MapaViewController:MKMapViewDelegate{
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation)-> MKAnnotationView? {
+        if !(annotation is placeAnnotation){
+            return nil
+        }
+        let type = (annotation as! placeAnnotation).type
+        let identifier = "\(type)"
+        var annotationView = mpView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
+        if annotation == nil {
+            annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
+        }
+        annotationView?.annotation = annotation
+        annotationView?.canShowCallout = true
+        annotationView?.markerTintColor = type == .place ? UIColor(named: "main") : UIColor(named: "poi")
+        annotationView?.glyphImage = type == .place ? UIImage(named: "placeGlyph") : UIImage(named: "poiGlyph")
+        return annotationView
+    }
 }

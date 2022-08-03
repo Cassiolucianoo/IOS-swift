@@ -13,6 +13,7 @@
 		D871E92F27C440AA00F96043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D871E92E27C440AA00F96043 /* SceneDelegate.swift */; };
 		D871E93427C440AA00F96043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D871E93227C440AA00F96043 /* Main.storyboard */; };
 		D871E93927C440AB00F96043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D871E93727C440AB00F96043 /* LaunchScreen.storyboard */; };
+		D8796F492899E5D50013B906 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8796F482899E5D50013B906 /* PlaceAnnotation.swift */; };
 		D87DE92D27C5C485002E5E9C /* PlaceFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87DE92C27C5C485002E5E9C /* PlaceFinderViewController.swift */; };
 		D87DE93027C5C73D002E5E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D871E93527C440AB00F96043 /* Assets.xcassets */; };
 		D880486F27C9CD0D0009EA45 /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D880486E27C9CD0D0009EA45 /* MapaViewController.swift */; };
@@ -28,6 +29,7 @@
 		D871E93527C440AB00F96043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D871E93827C440AB00F96043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D871E93A27C440AB00F96043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8796F482899E5D50013B906 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
 		D87DE92C27C5C485002E5E9C /* PlaceFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceFinderViewController.swift; sourceTree = "<group>"; };
 		D880486E27C9CD0D0009EA45 /* MapaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				D87DE92C27C5C485002E5E9C /* PlaceFinderViewController.swift */,
 				D880486E27C9CD0D0009EA45 /* MapaViewController.swift */,
 				D8670D1E27CC616A00C6396F /* place.swift */,
+				D8796F482899E5D50013B906 /* PlaceAnnotation.swift */,
 			);
 			path = "Treinamento1.12- Manipulando mapas";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				D880486F27C9CD0D0009EA45 /* MapaViewController.swift in Sources */,
 				D871E92F27C440AA00F96043 /* SceneDelegate.swift in Sources */,
 				D8675BFF27C482310026F3E5 /* PlacesTableViewController.swift in Sources */,
+				D8796F492899E5D50013B906 /* PlaceAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
