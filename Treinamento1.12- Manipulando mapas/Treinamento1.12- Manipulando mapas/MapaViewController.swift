@@ -64,7 +64,7 @@ extension MapaViewController:MKMapViewDelegate{
         let type = (annotation as! placeAnnotation).type
         let identifier = "\(type)"
         var annotationView = mpView.dequeueReusableAnnotationView(withIdentifier: identifier) as? MKMarkerAnnotationView
-        if annotation == nil {
+        if annotationView == nil {
             annotationView = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: identifier)
         }
         annotationView?.annotation = annotation
