@@ -7,15 +7,19 @@
 
 import SwiftUI
 
+ 
 struct ContentView: View {
+     
+    @State private var noite = false
+    
     var body: some View {
         ZStack{
-            CorDoFundo(topoCor: .blue, rodapeCor: Color("azulMaisClaro"))
+            CorDoFundo(noite: $noite)
             VStack{
                 
                 CidadeTextView(cidadeText: "São Paulo, BR")
                 VStack(spacing: 10){
-                    CidadeTemperaturaTextView(img: "cloud.sun.fill", temperatura:42)
+                    CidadeTemperaturaTextView(img: noite ? "moon.stars.fill" : "cloud.sun.fill", temperatura: noite ? 12 : 42)
                 }.padding(.bottom, 40)
                 
                 HStack(spacing: 20){
@@ -28,11 +32,12 @@ struct ContentView: View {
                 Spacer()
                 
                 Button{
+                    noite.toggle()
                     print("botão selecionado")
                 }
                 label:{
                     
-                    BotaoMudarTempo(textBotao: "BotaoMudarTempo", textColor: .blue, corDeFundoBt: .white)
+                    BotaoMudarTempo(textBotao: "Mudar para noite", textColor: .blue, corDeFundoBt: .white)
                 }
                 
                 Spacer()
@@ -72,10 +77,11 @@ struct SemanasView: View {
 }
 
 struct CorDoFundo: View {
-    var topoCor: Color
-    var rodapeCor: Color
+    
+    @Binding var noite: Bool
     var body: some View {
-        LinearGradient(gradient: Gradient(colors: [topoCor, rodapeCor]), startPoint: .topLeading, endPoint: .bottomTrailing)
+        LinearGradient(gradient: Gradient (colors: [noite ? .black : .blue, noite ? .gray : Color("azulMaisClaro")]),
+                                                    startPoint: .topLeading, endPoint: .bottomTrailing)
             .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
