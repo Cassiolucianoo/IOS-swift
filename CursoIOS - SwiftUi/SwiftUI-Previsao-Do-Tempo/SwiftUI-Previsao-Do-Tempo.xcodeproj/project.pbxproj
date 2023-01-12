@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF57001B296FCC6900A33F61 /* BotaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57001A296FCC6900A33F61 /* BotaoView.swift */; };
 		DF7AB0DE296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */; };
 		DF7AB0E0296E829F00C92C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0DF296E829F00C92C8B /* ContentView.swift */; };
 		DF7AB0E2296E82A000C92C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7AB0E1296E82A000C92C8B /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF57001A296FCC6900A33F61 /* BotaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoView.swift; sourceTree = "<group>"; };
 		DF7AB0DA296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Previsao-Do-Tempo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Previsao_Do_TempoApp.swift; sourceTree = "<group>"; };
 		DF7AB0DF296E829F00C92C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */,
 				DF7AB0DF296E829F00C92C8B /* ContentView.swift */,
+				DF57001A296FCC6900A33F61 /* BotaoView.swift */,
 				DF7AB0E1296E82A000C92C8B /* Assets.xcassets */,
 				DF7AB0E6296E82A000C92C8B /* Info.plist */,
 				DF7AB0E3296E82A000C92C8B /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				DF7AB0E0296E829F00C92C8B /* ContentView.swift in Sources */,
 				DF7AB0DE296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift in Sources */,
+				DF57001B296FCC6900A33F61 /* BotaoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
