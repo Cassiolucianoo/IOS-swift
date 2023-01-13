@@ -7,25 +7,19 @@
 
 import SwiftUI
 
+ 
 struct ContentView: View {
+     
+    @State private var noite = false
+    
     var body: some View {
         ZStack{
-            LinearGradient(gradient: Gradient(colors: [.blue, Color( "azulMaisClaro")]), startPoint: .topLeading, endPoint: .bottomTrailing)
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            CorDoFundo(noite: $noite)
             VStack{
-                Text("São Paulo, BR")
-                    .font(.system(size:32, weight: .medium, design: .default))
-                    .foregroundColor(.white)
-                    .padding()
+                
+                CidadeTextView(cidadeText: "São Paulo, BR")
                 VStack(spacing: 10){
-                    Image(systemName: "cloud.sun.fill")
-                        .renderingMode(.original)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 180, height: 180)
-                    Text("42º")
-                        .font(.system(size: 70, weight: .medium))
-                        .foregroundColor(.white)
+                    CidadeTemperaturaTextView(img: noite ? "moon.stars.fill" : "cloud.sun.fill", temperatura: noite ? 12 : 42)
                 }.padding(.bottom, 40)
                 
                 HStack(spacing: 20){
@@ -38,18 +32,19 @@ struct ContentView: View {
                 Spacer()
                 
                 Button{
+                    noite.toggle()
                     print("botão selecionado")
                 }
                 label:{
-                    Text("Mudar horario do Dia")
-                        .frame(width: 280, height: 50)
-                        .background(Color.white)
-                        .font(.system(size:20, weight: .bold, design: .default))
-                        .cornerRadius(10)
-                }.padding(.bottom, 70)
+                    
+                    BotaoMudarTempo(textBotao: "Mudar para noite", textColor: .blue, corDeFundoBt: .white)
+                }
+                
+                Spacer()
+                
             }
         }
-       
+        
     }
 }
 
@@ -78,5 +73,42 @@ struct SemanasView: View {
                 .font(.system(size: 28, weight: .medium))
                 .foregroundColor(.white)
         }
+    }
+}
+
+struct CorDoFundo: View {
+    
+    @Binding var noite: Bool
+    var body: some View {
+        LinearGradient(gradient: Gradient (colors: [noite ? .black : .blue, noite ? .gray : Color("azulMaisClaro")]),
+                                                    startPoint: .topLeading, endPoint: .bottomTrailing)
+            .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct CidadeTextView: View {
+    var cidadeText: String
+    var body: some View {
+        Text(cidadeText)
+            .font(.system(size:32, weight: .medium, design: .default))
+            .foregroundColor(.white)
+            .padding()
+    }
+}
+
+struct CidadeTemperaturaTextView: View{
+    var img: String
+    var temperatura: Int
+    var body: some View{
+        VStack{
+        Image(systemName: img)
+            .renderingMode(.original)
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 180, height: 180)
+        Text("\(temperatura)º")
+            .font(.system(size: 70, weight: .medium))
+            .foregroundColor(.white)
+    }.padding(.bottom, 40)
     }
 }
