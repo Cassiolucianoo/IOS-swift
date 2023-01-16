@@ -12,6 +12,8 @@
 		DF5CA4D329713311001D49C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5CA4D229713311001D49C4 /* Assets.xcassets */; };
 		DF5CA4D629713311001D49C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5CA4D529713311001D49C4 /* Preview Assets.xcassets */; };
 		DF5CA4DE29713CF5001D49C4 /* TextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CA4DD29713CF5001D49C4 /* TextBootcamp.swift */; };
+		DF5E65AE2974CE8F003B6C0B /* ColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E65AD2974CE8F003B6C0B /* ColorsBootcamp.swift */; };
+		DF9F0C2D29764A970088F2FA /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F0C2C29764A970088F2FA /* GradientsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DF5CA4D529713311001D49C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF5CA4D729713311001D49C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF5CA4DD29713CF5001D49C4 /* TextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBootcamp.swift; sourceTree = "<group>"; };
+		DF5E65AD2974CE8F003B6C0B /* ColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsBootcamp.swift; sourceTree = "<group>"; };
+		DF9F0C2C29764A970088F2FA /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				DF5CA4CE29713310001D49C4 /* SwiftUiBootcampApp.swift */,
+				DF9F0C2C29764A970088F2FA /* GradientsBootcamp.swift */,
 				DF5CA4D029713310001D49C4 /* ShapesBootcamp.swift */,
+				DF5CA4DD29713CF5001D49C4 /* TextBootcamp.swift */,
+				DF5E65AD2974CE8F003B6C0B /* ColorsBootcamp.swift */,
 				DF5CA4D229713311001D49C4 /* Assets.xcassets */,
 				DF5CA4D729713311001D49C4 /* Info.plist */,
 				DF5CA4D429713311001D49C4 /* Preview Content */,
-				DF5CA4DD29713CF5001D49C4 /* TextBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF9F0C2D29764A970088F2FA /* GradientsBootcamp.swift in Sources */,
 				DF5CA4D129713310001D49C4 /* ShapesBootcamp.swift in Sources */,
 				DF5CA4CF29713310001D49C4 /* SwiftUiBootcampApp.swift in Sources */,
+				DF5E65AE2974CE8F003B6C0B /* ColorsBootcamp.swift in Sources */,
 				DF5CA4DE29713CF5001D49C4 /* TextBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
