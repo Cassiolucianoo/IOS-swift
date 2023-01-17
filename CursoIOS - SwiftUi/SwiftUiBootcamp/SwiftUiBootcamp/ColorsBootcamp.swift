@@ -21,6 +21,8 @@ struct ColorsBootcamp: View {
             .shadow(color: Color("ColorPersonalizada").opacity(0.3), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: -20, y: -20)
             
 }
+    
+    
 
 struct ColorsBootcamp_Previews: PreviewProvider {
     static var previews: some View {
