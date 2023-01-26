@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */; };
 		DF5CA4CF29713310001D49C4 /* SwiftUiBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CA4CE29713310001D49C4 /* SwiftUiBootcampApp.swift */; };
 		DF5CA4D129713310001D49C4 /* ShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5CA4D029713310001D49C4 /* ShapesBootcamp.swift */; };
 		DF5CA4D329713311001D49C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5CA4D229713311001D49C4 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		DF5CA4CB29713310001D49C4 /* SwiftUiBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5CA4CE29713310001D49C4 /* SwiftUiBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiBootcampApp.swift; sourceTree = "<group>"; };
 		DF5CA4D029713310001D49C4 /* ShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesBootcamp.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				DF5CA4D729713311001D49C4 /* Info.plist */,
 				DF5CA4D429713311001D49C4 /* Preview Content */,
 				DF9F0C302976B8800088F2FA /* Imagebootcamp.swift */,
+				DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				DF9F0C2F29766F4C0088F2FA /* IconsBootcamp.swift in Sources */,
 				DF5E65AE2974CE8F003B6C0B /* ColorsBootcamp.swift in Sources */,
 				DF5CA4DE29713CF5001D49C4 /* TextBootcamp.swift in Sources */,
+				DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */,
 				DF9F0C312976B8800088F2FA /* Imagebootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
