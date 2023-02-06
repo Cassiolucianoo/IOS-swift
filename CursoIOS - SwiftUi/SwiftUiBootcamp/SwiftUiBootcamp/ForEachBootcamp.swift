@@ -17,7 +17,7 @@ struct ForEachBootcamp: View {
         
 	VStack{
 
-        ForEach(data.indices){ index in
+        ForEach(dados.indices){ index in
             
             Text("\(dados[index]): \(index)")
             
