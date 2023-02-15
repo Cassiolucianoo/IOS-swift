@@ -27,6 +27,7 @@
 		DF9F0C2F29766F4C0088F2FA /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F0C2E29766F4C0088F2FA /* IconsBootcamp.swift */; };
 		DF9F0C312976B8800088F2FA /* Imagebootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9F0C302976B8800088F2FA /* Imagebootcamp.swift */; };
 		DFA3DF2F2995EDFF00267C38 /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA3DF2E2995EDFF00267C38 /* GridBootcamp.swift */; };
+		DFC51F0A299C933A00A9EA89 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC51F09299C933A00A9EA89 /* StateBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DF9F0C2E29766F4C0088F2FA /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		DF9F0C302976B8800088F2FA /* Imagebootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagebootcamp.swift; sourceTree = "<group>"; };
 		DFA3DF2E2995EDFF00267C38 /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
+		DFC51F09299C933A00A9EA89 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DF56D7D22991C28100650AD0 /* ScrollViewBootcamp.swift */,
 				DFA3DF2E2995EDFF00267C38 /* GridBootcamp.swift */,
 				DF8B29372999AB2500AB061E /* SafeAreaBootcamp.swift */,
+				DFC51F09299C933A00A9EA89 /* StateBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				DF5CA4D129713310001D49C4 /* ShapesBootcamp.swift in Sources */,
 				DF5CA4CF29713310001D49C4 /* SwiftUiBootcampApp.swift in Sources */,
 				DF9F0C2F29766F4C0088F2FA /* IconsBootcamp.swift in Sources */,
+				DFC51F0A299C933A00A9EA89 /* StateBootcamp.swift in Sources */,
 				DF5E65AE2974CE8F003B6C0B /* ColorsBootcamp.swift in Sources */,
 				DF66B072298889C00065D3FF /* SpacerBootcamp.swift in Sources */,
 				DF54E10D298B2E1B00000BFC /* InitializerBootcamp.swift in Sources */,
