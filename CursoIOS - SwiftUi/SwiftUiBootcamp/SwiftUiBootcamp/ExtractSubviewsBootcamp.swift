@@ -13,14 +13,11 @@ struct ExtractSubviewsBootcamp: View {
             
             Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             
-            
             HStack {
                 SubView(titulo: "Tomate", contador: 5, color: .red)
                 SubView(titulo: "banana", contador: 12, color: .yellow)
                 SubView(titulo: "abacate", contador: 9, color: .green)
             }
-            
-            
             
         }
     }
@@ -41,13 +38,11 @@ struct SubView: View {
     var body: some View {
         VStack{
             Text(titulo)
-                .font(.system(size: 25))
+                .font(.system(size: 15))
                 .bold()
             
             Text("\(contador)")
                 .font(.system(size: 20))
-            
-            
         }
         .padding()
         .background(color)
