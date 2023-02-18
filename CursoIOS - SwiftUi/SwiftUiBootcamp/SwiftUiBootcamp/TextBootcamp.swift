@@ -26,7 +26,7 @@ struct TextBootcamp: View {
     }
 }
 
-struct SwiftUIView_Previews: PreviewProvider {
+struct TextBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         TextBootcamp()
     }
