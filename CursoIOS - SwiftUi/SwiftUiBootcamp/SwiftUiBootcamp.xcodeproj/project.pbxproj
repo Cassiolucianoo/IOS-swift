@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF1B611529B95123001723EA /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */; };
 		DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */; };
 		DF33260E2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33260D2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift */; };
 		DF3E5EDB298F48EB00E38A09 /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E5EDA298F48EB00E38A09 /* ForEachBootcamp.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		DF33260D2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
 		DF3E5EDA298F48EB00E38A09 /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				DF68852229A14E3C00FD7635 /* BindingBootcamp.swift */,
 				DF68852429A15D2300FD7635 /* Conditional.swift */,
 				DF87045929A58CE700F6E34D /* TernaryBootcamp.swift */,
+				DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				DF64CC00298737AF00A4E131 /* StacksBootcamp.swift in Sources */,
 				DF5CA4DE29713CF5001D49C4 /* TextBootcamp.swift in Sources */,
 				DF68852329A14E3C00FD7635 /* BindingBootcamp.swift in Sources */,
+				DF1B611529B95123001723EA /* AnimationTimingBootcamp.swift in Sources */,
 				DF8B233F299D7A35004BBB76 /* ExtractedFunctionsBootcamp.swift in Sources */,
 				DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */,
 				DF87045A29A58CE700F6E34D /* TernaryBootcamp.swift in Sources */,
