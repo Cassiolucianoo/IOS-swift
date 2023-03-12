@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF57001B296FCC6900A33F61 /* BotaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57001A296FCC6900A33F61 /* BotaoView.swift */; };
+		DF7AB0DE296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */; };
+		DF7AB0E0296E829F00C92C8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0DF296E829F00C92C8B /* ContentView.swift */; };
+		DF7AB0E2296E82A000C92C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7AB0E1296E82A000C92C8B /* Assets.xcassets */; };
+		DF7AB0E5296E82A000C92C8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF7AB0E4296E82A000C92C8B /* Preview Assets.xcassets */; };
+		DF7AB0F0296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0EF296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoTests.swift */; };
+		DF7AB0FB296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7AB0FA296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF7AB0EC296E82A000C92C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7AB0D2296E829F00C92C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7AB0D9296E829F00C92C8B;
+			remoteInfo = "SwiftUI-Previsao-Do-Tempo";
+		};
+		DF7AB0F7296E82A000C92C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF7AB0D2296E829F00C92C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF7AB0D9296E829F00C92C8B;
+			remoteInfo = "SwiftUI-Previsao-Do-Tempo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF57001A296FCC6900A33F61 /* BotaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotaoView.swift; sourceTree = "<group>"; };
+		DF7AB0DA296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Previsao-Do-Tempo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Previsao_Do_TempoApp.swift; sourceTree = "<group>"; };
+		DF7AB0DF296E829F00C92C8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF7AB0E1296E82A000C92C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF7AB0E4296E82A000C92C8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF7AB0E6296E82A000C92C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7AB0EB296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Previsao-Do-TempoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7AB0EF296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Previsao_Do_TempoTests.swift; sourceTree = "<group>"; };
+		DF7AB0F1296E82A000C92C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7AB0F6296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Previsao-Do-TempoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7AB0FA296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Previsao_Do_TempoUITests.swift; sourceTree = "<group>"; };
+		DF7AB0FC296E82A000C92C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF7AB0D7296E829F00C92C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0E8296E82A000C92C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0F3296E82A000C92C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF7AB0D1296E829F00C92C8B = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0DC296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */,
+				DF7AB0EE296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests */,
+				DF7AB0F9296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests */,
+				DF7AB0DB296E829F00C92C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF7AB0DB296E829F00C92C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0DA296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo.app */,
+				DF7AB0EB296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests.xctest */,
+				DF7AB0F6296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF7AB0DC296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0DD296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift */,
+				DF7AB0DF296E829F00C92C8B /* ContentView.swift */,
+				DF57001A296FCC6900A33F61 /* BotaoView.swift */,
+				DF7AB0E1296E82A000C92C8B /* Assets.xcassets */,
+				DF7AB0E6296E82A000C92C8B /* Info.plist */,
+				DF7AB0E3296E82A000C92C8B /* Preview Content */,
+			);
+			path = "SwiftUI-Previsao-Do-Tempo";
+			sourceTree = "<group>";
+		};
+		DF7AB0E3296E82A000C92C8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0E4296E82A000C92C8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF7AB0EE296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0EF296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoTests.swift */,
+				DF7AB0F1296E82A000C92C8B /* Info.plist */,
+			);
+			path = "SwiftUI-Previsao-Do-TempoTests";
+			sourceTree = "<group>";
+		};
+		DF7AB0F9296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AB0FA296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoUITests.swift */,
+				DF7AB0FC296E82A000C92C8B /* Info.plist */,
+			);
+			path = "SwiftUI-Previsao-Do-TempoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF7AB0D9296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7AB0FF296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-Tempo" */;
+			buildPhases = (
+				DF7AB0D6296E829F00C92C8B /* Sources */,
+				DF7AB0D7296E829F00C92C8B /* Frameworks */,
+				DF7AB0D8296E829F00C92C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Previsao-Do-Tempo";
+			productName = "SwiftUI-Previsao-Do-Tempo";
+			productReference = DF7AB0DA296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7AB0EA296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7AB102296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-TempoTests" */;
+			buildPhases = (
+				DF7AB0E7296E82A000C92C8B /* Sources */,
+				DF7AB0E8296E82A000C92C8B /* Frameworks */,
+				DF7AB0E9296E82A000C92C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7AB0ED296E82A000C92C8B /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Previsao-Do-TempoTests";
+			productName = "SwiftUI-Previsao-Do-TempoTests";
+			productReference = DF7AB0EB296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF7AB0F5296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7AB105296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-TempoUITests" */;
+			buildPhases = (
+				DF7AB0F2296E82A000C92C8B /* Sources */,
+				DF7AB0F3296E82A000C92C8B /* Frameworks */,
+				DF7AB0F4296E82A000C92C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF7AB0F8296E82A000C92C8B /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Previsao-Do-TempoUITests";
+			productName = "SwiftUI-Previsao-Do-TempoUITests";
+			productReference = DF7AB0F6296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF7AB0D2296E829F00C92C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DF7AB0D9296E829F00C92C8B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					DF7AB0EA296E82A000C92C8B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF7AB0D9296E829F00C92C8B;
+					};
+					DF7AB0F5296E82A000C92C8B = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = DF7AB0D9296E829F00C92C8B;
+					};
+				};
+			};
+			buildConfigurationList = DF7AB0D5296E829F00C92C8B /* Build configuration list for PBXProject "SwiftUI-Previsao-Do-Tempo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF7AB0D1296E829F00C92C8B;
+			productRefGroup = DF7AB0DB296E829F00C92C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF7AB0D9296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */,
+				DF7AB0EA296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoTests */,
+				DF7AB0F5296E82A000C92C8B /* SwiftUI-Previsao-Do-TempoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7AB0D8296E829F00C92C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7AB0E5296E82A000C92C8B /* Preview Assets.xcassets in Resources */,
+				DF7AB0E2296E82A000C92C8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0E9296E82A000C92C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0F4296E82A000C92C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF7AB0D6296E829F00C92C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7AB0E0296E829F00C92C8B /* ContentView.swift in Sources */,
+				DF7AB0DE296E829F00C92C8B /* SwiftUI_Previsao_Do_TempoApp.swift in Sources */,
+				DF57001B296FCC6900A33F61 /* BotaoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0E7296E82A000C92C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7AB0F0296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7AB0F2296E82A000C92C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7AB0FB296E82A000C92C8B /* SwiftUI_Previsao_Do_TempoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF7AB0ED296E82A000C92C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7AB0D9296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */;
+			targetProxy = DF7AB0EC296E82A000C92C8B /* PBXContainerItemProxy */;
+		};
+		DF7AB0F8296E82A000C92C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF7AB0D9296E829F00C92C8B /* SwiftUI-Previsao-Do-Tempo */;
+			targetProxy = DF7AB0F7296E82A000C92C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF7AB0FD296E82A000C92C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF7AB0FE296E82A000C92C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF7AB100296E82A000C92C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Previsao-Do-Tempo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-Tempo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-Tempo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF7AB101296E82A000C92C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Previsao-Do-Tempo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-Tempo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-Tempo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF7AB103296E82A000C92C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-TempoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-TempoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Previsao-Do-Tempo.app/SwiftUI-Previsao-Do-Tempo";
+			};
+			name = Debug;
+		};
+		DF7AB104296E82A000C92C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-TempoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-TempoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Previsao-Do-Tempo.app/SwiftUI-Previsao-Do-Tempo";
+			};
+			name = Release;
+		};
+		DF7AB106296E82A000C92C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-TempoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-TempoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Previsao-Do-Tempo";
+			};
+			name = Debug;
+		};
+		DF7AB107296E82A000C92C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SwiftUI-Previsao-Do-TempoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cassio.SwiftUI-Previsao-Do-TempoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Previsao-Do-Tempo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF7AB0D5296E829F00C92C8B /* Build configuration list for PBXProject "SwiftUI-Previsao-Do-Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7AB0FD296E82A000C92C8B /* Debug */,
+				DF7AB0FE296E82A000C92C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7AB0FF296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7AB100296E82A000C92C8B /* Debug */,
+				DF7AB101296E82A000C92C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7AB102296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-TempoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7AB103296E82A000C92C8B /* Debug */,
+				DF7AB104296E82A000C92C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7AB105296E82A000C92C8B /* Build configuration list for PBXNativeTarget "SwiftUI-Previsao-Do-TempoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7AB106296E82A000C92C8B /* Debug */,
+				DF7AB107296E82A000C92C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF7AB0D2296E829F00C92C8B /* Project object */;
+}
