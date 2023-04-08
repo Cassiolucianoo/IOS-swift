@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var title = ""
     @State private var dateSelect = Date()
     @State private var description = ""
-
+    
     var body: some View {
         NavigationView {
             Form {
@@ -27,8 +27,35 @@ struct ContentView: View {
             }
             .accentColor(.red)
             .navigationTitle("Criar tarefa")
+            .onTapGesture {
+                hideKeybord()
+            }
+            .navigationBarItems(leading: leading, trailing: trailing)
         }
     }
+}
+
+var leading: some View{
+    Button(action: {
+        
+    }, label: {
+        Text("Cancela")
+        
+    })
+}
+var trailing: some View{
+    Button(action: {
+        saveTarefa()
+    }, label: {
+        Text("Adicionar")
+    })
+}
+func cancelar(){
+    print("Tarefa salva")
+}
+
+func saveTarefa(){
+    print("Tarefa salva")
 }
 
 struct ContentView_Previews: PreviewProvider {
@@ -44,5 +71,11 @@ struct Footer: View {
             .frame(maxWidth: .infinity, alignment: .trailing)
             .font(.headline)
             .foregroundColor(.secondary)
+    }
+}
+
+extension View {
+    func hideKeybord(){
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
