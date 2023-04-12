@@ -46,7 +46,7 @@ struct ItemView: View {
                 }
                 Image(systemName: "info")
                     .frame(width: 25, height: 25)
-                    .background(Circle().fill(Color.gray))
+                    .background(Circle().fill(Color.green))
                     .padding(.leading, 10)
             }
             .padding()
@@ -71,10 +71,10 @@ struct MyListView: View {
     var body: some View {
         List(items) { item in
             ItemView(data: item)
-        }.onAppear {
-            UITableView.appearance().tableFooterView = UIView()
-            UITableView.appearance().separatorStyle = .none
-        }
+       }.onAppear {
+          UITableView.appearance().tableFooterView = UIView()
+           UITableView.appearance().separatorStyle = .none
+       }
     }
 }
 
