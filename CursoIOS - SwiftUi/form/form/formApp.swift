@@ -11,7 +11,7 @@ import SwiftUI
 struct formApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EditTask()
         }
     }
 }

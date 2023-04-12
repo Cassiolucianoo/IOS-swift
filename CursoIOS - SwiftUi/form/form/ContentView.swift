@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     
     @State private var title = ""
     @State private var dateSelect = Date()
     @State private var description = ""
+    @State var isPresentedEditTask = false
     
     var body: some View {
         NavigationView {
@@ -31,25 +33,30 @@ struct ContentView: View {
                 hideKeybord()
             }
             .navigationBarItems(leading: leading, trailing: trailing)
+            
         }
     }
+    
+    var leading: some View{
+        Button(action: {
+             
+        }, label: {
+            Text("Cancela")
+            
+        })
+    }
+    var trailing: some View{
+        Button(action: {
+            isPresentedEditTask = true
+            saveTarefa()
+        }, label: {
+            Text("Adicionar")
+        })
+    }
+    
 }
 
-var leading: some View{
-    Button(action: {
-        
-    }, label: {
-        Text("Cancela")
-        
-    })
-}
-var trailing: some View{
-    Button(action: {
-        saveTarefa()
-    }, label: {
-        Text("Adicionar")
-    })
-}
+
 func cancelar(){
     print("Tarefa salva")
 }
@@ -69,7 +76,7 @@ struct Footer: View {
     var body: some View {
         Text ("\(self.wordCount) Caracteres")
             .frame(maxWidth: .infinity, alignment: .trailing)
-            .font(.headline)
+            .font(.system(size: 15))
             .foregroundColor(.secondary)
     }
 }

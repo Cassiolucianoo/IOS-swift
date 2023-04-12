@@ -7,25 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF874EBE29DD632100722E89 /* formApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF874EBD29DD632100722E89 /* formApp.swift */; };
-		DF874EC029DD632100722E89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF874EBF29DD632100722E89 /* ContentView.swift */; };
-		DF874EC229DD632200722E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF874EC129DD632200722E89 /* Assets.xcassets */; };
-		DF874EC529DD632200722E89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF874EC429DD632200722E89 /* Preview Assets.xcassets */; };
-		DF8EB76229E2C12C00537A31 /* EditTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EB76129E2C12C00537A31 /* EditTask.swift */; };
+		DF8EB77029E2F02200537A31 /* ListViewWithElevatedCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EB76F29E2F02200537A31 /* ListViewWithElevatedCardsApp.swift */; };
+		DF8EB77229E2F02200537A31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8EB77129E2F02200537A31 /* ContentView.swift */; };
+		DF8EB77429E2F02400537A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8EB77329E2F02400537A31 /* Assets.xcassets */; };
+		DF8EB77729E2F02400537A31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8EB77629E2F02400537A31 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF874EBA29DD632100722E89 /* form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = form.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF874EBD29DD632100722E89 /* formApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formApp.swift; sourceTree = "<group>"; };
-		DF874EBF29DD632100722E89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		DF874EC129DD632200722E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF874EC429DD632200722E89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DF874EC629DD632200722E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF8EB76129E2C12C00537A31 /* EditTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTask.swift; sourceTree = "<group>"; };
+		DF8EB76C29E2F02200537A31 /* ListViewWithElevatedCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListViewWithElevatedCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8EB76F29E2F02200537A31 /* ListViewWithElevatedCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewWithElevatedCardsApp.swift; sourceTree = "<group>"; };
+		DF8EB77129E2F02200537A31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF8EB77329E2F02400537A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8EB77629E2F02400537A31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF8EB77829E2F02400537A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DF874EB729DD632100722E89 /* Frameworks */ = {
+		DF8EB76929E2F02200537A31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,39 +33,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DF874EB129DD632100722E89 = {
+		DF8EB76329E2F02200537A31 = {
 			isa = PBXGroup;
 			children = (
-				DF874EBC29DD632100722E89 /* form */,
-				DF874EBB29DD632100722E89 /* Products */,
+				DF8EB76E29E2F02200537A31 /* ListViewWithElevatedCards */,
+				DF8EB76D29E2F02200537A31 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DF874EBB29DD632100722E89 /* Products */ = {
+		DF8EB76D29E2F02200537A31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF874EBA29DD632100722E89 /* form.app */,
+				DF8EB76C29E2F02200537A31 /* ListViewWithElevatedCards.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF874EBC29DD632100722E89 /* form */ = {
+		DF8EB76E29E2F02200537A31 /* ListViewWithElevatedCards */ = {
 			isa = PBXGroup;
 			children = (
-				DF874EBD29DD632100722E89 /* formApp.swift */,
-				DF874EBF29DD632100722E89 /* ContentView.swift */,
-				DF8EB76129E2C12C00537A31 /* EditTask.swift */,
-				DF874EC129DD632200722E89 /* Assets.xcassets */,
-				DF874EC629DD632200722E89 /* Info.plist */,
-				DF874EC329DD632200722E89 /* Preview Content */,
+				DF8EB76F29E2F02200537A31 /* ListViewWithElevatedCardsApp.swift */,
+				DF8EB77129E2F02200537A31 /* ContentView.swift */,
+				DF8EB77329E2F02400537A31 /* Assets.xcassets */,
+				DF8EB77829E2F02400537A31 /* Info.plist */,
+				DF8EB77529E2F02400537A31 /* Preview Content */,
 			);
-			path = form;
+			path = ListViewWithElevatedCards;
 			sourceTree = "<group>";
 		};
-		DF874EC329DD632200722E89 /* Preview Content */ = {
+		DF8EB77529E2F02400537A31 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				DF874EC429DD632200722E89 /* Preview Assets.xcassets */,
+				DF8EB77629E2F02400537A31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -75,38 +72,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF874EB929DD632100722E89 /* form */ = {
+		DF8EB76B29E2F02200537A31 /* ListViewWithElevatedCards */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF874EC929DD632200722E89 /* Build configuration list for PBXNativeTarget "form" */;
+			buildConfigurationList = DF8EB77B29E2F02400537A31 /* Build configuration list for PBXNativeTarget "ListViewWithElevatedCards" */;
 			buildPhases = (
-				DF874EB629DD632100722E89 /* Sources */,
-				DF874EB729DD632100722E89 /* Frameworks */,
-				DF874EB829DD632100722E89 /* Resources */,
+				DF8EB76829E2F02200537A31 /* Sources */,
+				DF8EB76929E2F02200537A31 /* Frameworks */,
+				DF8EB76A29E2F02200537A31 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = form;
-			productName = form;
-			productReference = DF874EBA29DD632100722E89 /* form.app */;
+			name = ListViewWithElevatedCards;
+			productName = ListViewWithElevatedCards;
+			productReference = DF8EB76C29E2F02200537A31 /* ListViewWithElevatedCards.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DF874EB229DD632100722E89 /* Project object */ = {
+		DF8EB76429E2F02200537A31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					DF874EB929DD632100722E89 = {
+					DF8EB76B29E2F02200537A31 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = DF874EB529DD632100722E89 /* Build configuration list for PBXProject "form" */;
+			buildConfigurationList = DF8EB76729E2F02200537A31 /* Build configuration list for PBXProject "ListViewWithElevatedCards" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,43 +111,42 @@
 				en,
 				Base,
 			);
-			mainGroup = DF874EB129DD632100722E89;
-			productRefGroup = DF874EBB29DD632100722E89 /* Products */;
+			mainGroup = DF8EB76329E2F02200537A31;
+			productRefGroup = DF8EB76D29E2F02200537A31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF874EB929DD632100722E89 /* form */,
+				DF8EB76B29E2F02200537A31 /* ListViewWithElevatedCards */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DF874EB829DD632100722E89 /* Resources */ = {
+		DF8EB76A29E2F02200537A31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF874EC529DD632200722E89 /* Preview Assets.xcassets in Resources */,
-				DF874EC229DD632200722E89 /* Assets.xcassets in Resources */,
+				DF8EB77729E2F02400537A31 /* Preview Assets.xcassets in Resources */,
+				DF8EB77429E2F02400537A31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DF874EB629DD632100722E89 /* Sources */ = {
+		DF8EB76829E2F02200537A31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF874EC029DD632100722E89 /* ContentView.swift in Sources */,
-				DF8EB76229E2C12C00537A31 /* EditTask.swift in Sources */,
-				DF874EBE29DD632100722E89 /* formApp.swift in Sources */,
+				DF8EB77229E2F02200537A31 /* ContentView.swift in Sources */,
+				DF8EB77029E2F02200537A31 /* ListViewWithElevatedCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DF874EC729DD632200722E89 /* Debug */ = {
+		DF8EB77929E2F02400537A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +207,7 @@
 			};
 			name = Debug;
 		};
-		DF874EC829DD632200722E89 /* Release */ = {
+		DF8EB77A29E2F02400537A31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,42 +262,42 @@
 			};
 			name = Release;
 		};
-		DF874ECA29DD632200722E89 /* Debug */ = {
+		DF8EB77C29E2F02400537A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"form/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListViewWithElevatedCards/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = form/Info.plist;
+				INFOPLIST_FILE = ListViewWithElevatedCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassio.form;
+				PRODUCT_BUNDLE_IDENTIFIER = cassio.ListViewWithElevatedCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DF874ECB29DD632200722E89 /* Release */ = {
+		DF8EB77D29E2F02400537A31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"form/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ListViewWithElevatedCards/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = form/Info.plist;
+				INFOPLIST_FILE = ListViewWithElevatedCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cassio.form;
+				PRODUCT_BUNDLE_IDENTIFIER = cassio.ListViewWithElevatedCards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,25 +307,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF874EB529DD632100722E89 /* Build configuration list for PBXProject "form" */ = {
+		DF8EB76729E2F02200537A31 /* Build configuration list for PBXProject "ListViewWithElevatedCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF874EC729DD632200722E89 /* Debug */,
-				DF874EC829DD632200722E89 /* Release */,
+				DF8EB77929E2F02400537A31 /* Debug */,
+				DF8EB77A29E2F02400537A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF874EC929DD632200722E89 /* Build configuration list for PBXNativeTarget "form" */ = {
+		DF8EB77B29E2F02400537A31 /* Build configuration list for PBXNativeTarget "ListViewWithElevatedCards" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF874ECA29DD632200722E89 /* Debug */,
-				DF874ECB29DD632200722E89 /* Release */,
+				DF8EB77C29E2F02400537A31 /* Debug */,
+				DF8EB77D29E2F02400537A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DF874EB229DD632100722E89 /* Project object */;
+	rootObject = DF8EB76429E2F02200537A31 /* Project object */;
 }
