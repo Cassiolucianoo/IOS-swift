@@ -14,7 +14,7 @@ struct SheetsBootcamp: View {
     
     var body: some View {
         ZStack{
-
+            
             Color(#colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1))
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             Button(action: {
@@ -31,7 +31,7 @@ struct SheetsBootcamp: View {
                 
                 SegundaView( opa2: $opaAqui)
             })
-   
+            
         }
     }
 }
@@ -39,9 +39,9 @@ struct SheetsBootcamp: View {
 struct SegundaView: View {
     @State var visualizarSheetView: Bool = false
     @Binding var opa2: String
- 
-    var body: some View {
     
+    var body: some View {
+        
         ZStack{
             
             Color(#colorLiteral(red: 0.2745098174, green: 0.4862745106, blue: 0.1411764771, alpha: 1))
@@ -63,43 +63,43 @@ struct SegundaView: View {
                 
                 TerceiraView( )
             })
-
-    }
-    }
-
-struct TerceiraView: View {
-
-    //discartando uma tela
-    @Environment(\.presentationMode)  var presentationMode
- 
-    var body: some View {
-    
-        ZStack(alignment: .topLeading){
             
-            Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1))
-                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-            
-            Button(action: {
-                
-                presentationMode.wrappedValue.dismiss()
-                
-            }, label: {
-                Image(systemName: "xmark")
-                    .foregroundColor(.white)
-                    .font(.largeTitle)
-                    .padding(20)
-            })
-    
         }
-       
     }
-}
-
-struct SheetsBootcamp_Previews: PreviewProvider {
-    static var previews: some View {
-         SheetsBootcamp()
-        //SegundaView(  )
-        //TerceiraView()
+    
+    struct TerceiraView: View {
+        
+        //discartando uma tela
+        @Environment(\.presentationMode)  var presentationMode
+        
+        var body: some View {
+            
+            ZStack(alignment: .topLeading){
+                
+                Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1))
+                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                
+                Button(action: {
+                    
+                    presentationMode.wrappedValue.dismiss()
+                    
+                }, label: {
+                    Image(systemName: "xmark")
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
+                        .padding(20)
+                })
+                
+            }
+            
+        }
     }
-}
+    
+    struct SheetsBootcamp_Previews: PreviewProvider {
+        static var previews: some View {
+            SheetsBootcamp()
+            //SegundaView(  )
+            //TerceiraView()
+        }
+    }
 }
