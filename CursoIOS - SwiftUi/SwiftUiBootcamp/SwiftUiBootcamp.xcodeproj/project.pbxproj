@@ -26,6 +26,8 @@
 		DF68852529A15D2300FD7635 /* Conditional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF68852429A15D2300FD7635 /* Conditional.swift */; };
 		DF69B0CD2999E90F00DA0395 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF69B0CC2999E90F00DA0395 /* ButtonsBootcamp.swift */; };
 		DF6F100F29A82F5D005C2126 /* AnimationBootcamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F100E29A82F5D005C2126 /* AnimationBootcamo.swift */; };
+		DF7E7BA929E8F12C004DD421 /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E7BA829E8F12C004DD421 /* SheetsBootcamp.swift */; };
+		DF7E7BAB29E91560004DD421 /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7E7BAA29E91560004DD421 /* PopoverBootcamp.swift */; };
 		DF87045A29A58CE700F6E34D /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF87045929A58CE700F6E34D /* TernaryBootcamp.swift */; };
 		DF8B233F299D7A35004BBB76 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B233E299D7A35004BBB76 /* ExtractedFunctionsBootcamp.swift */; };
 		DF8B2341299D9825004BBB76 /* ExtractSubviewsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B2340299D9825004BBB76 /* ExtractSubviewsBootcamp.swift */; };
@@ -60,6 +62,8 @@
 		DF68852429A15D2300FD7635 /* Conditional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conditional.swift; sourceTree = "<group>"; };
 		DF69B0CC2999E90F00DA0395 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		DF6F100E29A82F5D005C2126 /* AnimationBootcamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamo.swift; sourceTree = "<group>"; };
+		DF7E7BA829E8F12C004DD421 /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
+		DF7E7BAA29E91560004DD421 /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		DF87045929A58CE700F6E34D /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
 		DF8B233E299D7A35004BBB76 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 		DF8B2340299D9825004BBB76 /* ExtractSubviewsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractSubviewsBootcamp.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 				DF87045929A58CE700F6E34D /* TernaryBootcamp.swift */,
 				DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */,
 				DFB17EC929CCC99A00E16EBF /* TransitionBootcamp.swift */,
+				DF7E7BA829E8F12C004DD421 /* SheetsBootcamp.swift */,
+				DF7E7BAA29E91560004DD421 /* PopoverBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				DF69B0CD2999E90F00DA0395 /* ButtonsBootcamp.swift in Sources */,
 				DF5CA4D129713310001D49C4 /* ShapesBootcamp.swift in Sources */,
 				DF5CA4CF29713310001D49C4 /* SwiftUiBootcampApp.swift in Sources */,
+				DF7E7BA929E8F12C004DD421 /* SheetsBootcamp.swift in Sources */,
 				DF9F0C2F29766F4C0088F2FA /* IconsBootcamp.swift in Sources */,
 				DFC51F0A299C933A00A9EA89 /* StateBootcamp.swift in Sources */,
 				DF5E65AE2974CE8F003B6C0B /* ColorsBootcamp.swift in Sources */,
@@ -232,6 +239,7 @@
 				DF5CA4DE29713CF5001D49C4 /* TextBootcamp.swift in Sources */,
 				DF68852329A14E3C00FD7635 /* BindingBootcamp.swift in Sources */,
 				DF1B611529B95123001723EA /* AnimationTimingBootcamp.swift in Sources */,
+				DF7E7BAB29E91560004DD421 /* PopoverBootcamp.swift in Sources */,
 				DF8B233F299D7A35004BBB76 /* ExtractedFunctionsBootcamp.swift in Sources */,
 				DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */,
 				DF87045A29A58CE700F6E34D /* TernaryBootcamp.swift in Sources */,

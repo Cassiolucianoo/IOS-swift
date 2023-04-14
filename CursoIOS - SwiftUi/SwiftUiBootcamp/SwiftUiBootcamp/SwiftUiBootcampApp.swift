@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUiBootcampApp: App {
     var body: some Scene {
         WindowGroup {
-            ShapesBootcamp()
+            SheetsBootcamp()
         }
     }
 }

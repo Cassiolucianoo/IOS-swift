@@ -54,7 +54,7 @@
 		DF36487929E5205200810760 /* NewSheet */ = {
 			isa = PBXGroup;
 			children = (
-				DFC6594229E655AA00958BC4 /* Rsoca */,
+				DFC6594229E655AA00958BC4 /* Rosca */,
 				DF36487A29E5205200810760 /* NewSheetApp.swift */,
 				DF36487E29E5205300810760 /* Assets.xcassets */,
 				DF36488329E5205300810760 /* Info.plist */,
@@ -71,13 +71,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DFC6594229E655AA00958BC4 /* Rsoca */ = {
+		DFC6594229E655AA00958BC4 /* Rosca */ = {
 			isa = PBXGroup;
 			children = (
 				DFC6594029E639B300958BC4 /* ModalView.swift */,
 				DF36487C29E5205200810760 /* ContentView.swift */,
 			);
-			path = Rsoca;
+			path = Rosca;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
