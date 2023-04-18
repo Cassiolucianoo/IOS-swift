@@ -63,7 +63,7 @@ struct ActionSheetBootcamp: View {
                 title: title,
                 message: nil,
                 buttons: [shareButton, relatorioButton, deletaButton, cancelaButton])
-        
+           
             
         }
     }

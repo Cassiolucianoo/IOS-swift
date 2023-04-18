@@ -95,6 +95,7 @@ struct SegundaView: View {
         }
     }
     
+    
     struct SheetsBootcamp_Previews: PreviewProvider {
         static var previews: some View {
             SheetsBootcamp()

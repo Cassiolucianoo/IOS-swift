@@ -63,7 +63,7 @@ struct AlertBootcamp: View {
                          dismissButton: .default( Text("OK"), action: {
                  fundoColor = .red
             }))
-            
+             
         default:
             return Alert(title: Text("Error"))
         }

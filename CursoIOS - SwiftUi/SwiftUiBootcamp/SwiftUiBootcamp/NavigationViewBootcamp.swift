@@ -68,3 +68,4 @@ struct NavigationViewBootcamp_Previews: PreviewProvider {
         NavigationViewBootcamp()
     }
 }
+
