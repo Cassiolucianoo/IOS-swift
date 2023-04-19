@@ -88,7 +88,6 @@ struct ContextMenuBootcamp: View {
         }
     }
 }
-
 struct ContextMenuBootcamp_Previews: PreviewProvider {
     static var previews: some View {
         ContextMenuBootcamp()
