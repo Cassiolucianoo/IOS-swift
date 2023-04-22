@@ -34,7 +34,7 @@ struct DatePickerBootcamp: View {
             .datePickerStyle(
                 CompactDatePickerStyle()
                 //GraphicalDatePickerStyle()
-                //WheelPickerStyle()
+                // WheelPickerStyle()
             )
             Spacer()
             
