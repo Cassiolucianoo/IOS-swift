@@ -149,6 +149,7 @@
 				DF5CA4D229713311001D49C4 /* Assets.xcassets */,
 				DF6D640F29F5B69400FFA932 /* TabViewBootcamp2.swift */,
 				DF6F100E29A82F5D005C2126 /* AnimationBootcamp.swift */,
+				DF76DF2329F69F0700444A76 /* DocumentationBootcamp.swift */,
 				DF6D640B29F55EC800FFA932 /* TabViewBootcamp.swift */,
 				DF6D640D29F5AEA300FFA932 /* ColorLiteraBootcamp.swift */,
 				DF77C27D29F4A6A800388E00 /* SliderBootcamp.swift */,
@@ -202,7 +203,6 @@
 			isa = PBXGroup;
 			children = (
 				DF5CA4D529713311001D49C4 /* Preview Assets.xcassets */,
-				DF76DF2329F69F0700444A76 /* DocumentationBootcamp.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
