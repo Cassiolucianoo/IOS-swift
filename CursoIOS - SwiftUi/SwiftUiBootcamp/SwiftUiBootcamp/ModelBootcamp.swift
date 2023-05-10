@@ -12,16 +12,17 @@ struct userDados: Identifiable{
     let nome: String
     let userName: String
     let followerCount: Int
+    let verifica: Bool
 }
 
 struct ModelBootcamp: View {
     
     @State var usuario: [userDados] = [
     
-        userDados(nome: "CASSIO", userName: "Cassiolucianoo", followerCount: 222)
-    
+        userDados(nome: "CASSIO", userName: "Cassiolucianoo", followerCount: 222, verifica: false),
+        userDados(nome: "CASSIO", userName: "Cassiolucianoo", followerCount: 222, verifica: true),
+        userDados(nome: "CASSIO", userName: "Cassiolucianoo", followerCount: 222, verifica: true)
     ]
-    
     var body: some View {
         NavigationView{
             List{
@@ -32,11 +33,12 @@ struct ModelBootcamp: View {
                         VStack(alignment: .leading){
                             Text(usuario.userName)
                                 .font(.headline)
-                            Text("Name")
+                            Text(usuario.nome)
                                 .foregroundColor(.gray)
                                 .font(.caption)
                         }
                         Spacer()
+                        Image(systemName: usuario.verifica ? "checkmark.seal.fill" : "xmark.seal.fill")
                         VStack{
                             Text("\(usuario.followerCount)")
                                 .font( .headline)
