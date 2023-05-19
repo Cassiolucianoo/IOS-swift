@@ -22,7 +22,7 @@ struct BackgroundMaterialsBootcamp: View {
             }
             .frame(height: 350)
             .frame(maxWidth: .infinity)
-            .background(.ultraThinMaterial)
+            .background(.ultraThickMaterial)
             .cornerRadius(30)
         }
         .ignoresSafeArea()
