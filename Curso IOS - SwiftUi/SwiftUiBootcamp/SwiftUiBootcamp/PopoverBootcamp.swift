@@ -42,6 +42,8 @@ struct PopoverBootcamp: View {
 }
 
 struct NovaTela: View {
+    
+    
     //discartando uma tela
     @Environment(\.presentationMode)  var presentationMode
     var body: some View {
