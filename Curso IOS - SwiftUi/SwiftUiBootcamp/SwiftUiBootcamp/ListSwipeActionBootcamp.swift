@@ -9,9 +9,9 @@ import SwiftUI
 
 struct ListSwipeActionBootcamp: View {
     
-    // MARK: VARIAVEIS
-    @State private var frutas = ["01maçã", "02banana", "03laranja","04maçã", "05banana", "06laranja"]
-    @State private var frutasFavoritas = ["00maçã"]
+    // MARK: --VARIAVEIS
+    @State private var frutas = ["Abacate", "Abacaxi", "Açaí","Acerola", "Amora", "Araticum"]
+    @State private var frutasFavoritas = ["Banana"]
     @State private var exibirViewEdicao = false
     @State private var frutaSelecionada = ""
     @State private var frutaEditada = ""
@@ -37,7 +37,7 @@ struct ListSwipeActionBootcamp: View {
                         
                     }.swipeActions(edge: .trailing, allowsFullSwipe: true){
                         Button("Delete"){
-                            //pressionado, chamamos a função deleteFruta e passamos a fruta correspondente como parâmetro. Dentro da função deleteFruta, procuramos o índice da fruta no array
+                            
                             deleteFruta(frutas[fruta])
                         }
                         .tint(.red)

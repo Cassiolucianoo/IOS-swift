@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF0483CA2A219FCD00D82A42 /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0483C92A219FCD00D82A42 /* BadgesBootcamp.swift */; };
 		DF1B611529B95123001723EA /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */; };
 		DF33260C2982D5C500822AB2 /* FrameBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */; };
 		DF33260E2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33260D2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF0483C92A219FCD00D82A42 /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		DF1B611429B95123001723EA /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
 		DF33260B2982D5C500822AB2 /* FrameBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBootcamp.swift; sourceTree = "<group>"; };
 		DF33260D2982E5D300822AB2 /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				DF7A5AE82A199A400074C020 /* EditList2Bootcamp.swift */,
 				DF7A5AE42A1991FB0074C020 /* EditListBootcamp.swift */,
 				DF7A5AE62A19946C0074C020 /* AddListBootcamp.swift */,
+				DF0483C92A219FCD00D82A42 /* BadgesBootcamp.swift */,
 			);
 			path = SwiftUiBootcamp;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				DF945F9E29ED916B00960393 /* AlertBootcamp.swift in Sources */,
 				DF3E5EDB298F48EB00E38A09 /* ForEachBootcamp.swift in Sources */,
 				DF56D7D32991C28100650AD0 /* ScrollViewBootcamp.swift in Sources */,
+				DF0483CA2A219FCD00D82A42 /* BadgesBootcamp.swift in Sources */,
 				DF6D641029F5B69400FFA932 /* TabViewBootcamp2.swift in Sources */,
 				DF9F0C312976B8800088F2FA /* Imagebootcamp.swift in Sources */,
 				DF7A5AE52A1991FB0074C020 /* EditListBootcamp.swift in Sources */,
