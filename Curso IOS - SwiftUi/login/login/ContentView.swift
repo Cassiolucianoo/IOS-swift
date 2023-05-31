@@ -47,7 +47,7 @@ struct Home : View {
             
             Image("logo")
                 .resizable()
-                .frame(width: 350, height: 250)
+                .frame(width: 390, height: 260)
             
             HStack{
                 
