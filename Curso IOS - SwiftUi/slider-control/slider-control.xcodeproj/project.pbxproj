@@ -15,6 +15,7 @@
 		DF742BC72A26E5F50001318C /* slider_controlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF742BC62A26E5F50001318C /* slider_controlUITests.swift */; };
 		DF742BC92A26E5F50001318C /* slider_controlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF742BC82A26E5F50001318C /* slider_controlUITestsLaunchTests.swift */; };
 		DF742BD62A26EAC80001318C /* introducao.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF742BD52A26EAC80001318C /* introducao.swift */; };
+		DF8565AB2A26FDEC00BC3DB6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8565AA2A26FDEC00BC3DB6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DF742BC62A26E5F50001318C /* slider_controlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider_controlUITests.swift; sourceTree = "<group>"; };
 		DF742BC82A26E5F50001318C /* slider_controlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slider_controlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DF742BD52A26EAC80001318C /* introducao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introducao.swift; sourceTree = "<group>"; };
+		DF8565AA2A26FDEC00BC3DB6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		DF742BAA2A26E5F30001318C /* slider-control */ = {
 			isa = PBXGroup;
 			children = (
+				DF8565A92A26FDB900BC3DB6 /* Views */,
 				DF742BD72A26EACE0001318C /* Model */,
 				DF742BAB2A26E5F30001318C /* slider_controlApp.swift */,
 				DF742BAD2A26E5F30001318C /* ContentView.swift */,
@@ -136,6 +139,14 @@
 				DF742BD52A26EAC80001318C /* introducao.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DF8565A92A26FDB900BC3DB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF8565AA2A26FDEC00BC3DB6 /* Home.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			files = (
 				DF742BD62A26EAC80001318C /* introducao.swift in Sources */,
 				DF742BAE2A26E5F30001318C /* ContentView.swift in Sources */,
+				DF8565AB2A26FDEC00BC3DB6 /* Home.swift in Sources */,
 				DF742BAC2A26E5F30001318C /* slider_controlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
