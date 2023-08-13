@@ -12,7 +12,7 @@ struct ContentView: View {
         
         ZStack{
             
-           Color(#colorLiteral(red: 0.8908282518, green: 0.4542962909, blue: 0.6321991682, alpha: 1))
+            Color(#colorLiteral(red: 0.8908282518, green: 0.4542962909, blue: 0.6321991682, alpha: 1))
             
                 .edgesIgnoringSafeArea(.all)
             
