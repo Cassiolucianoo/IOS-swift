@@ -72,6 +72,35 @@ class ViewController: UIViewController {
       
         let requisicao = NSFetchRequest< NSFetchRequestResult>(entityName: "Produtos")
         
+        //ordenação de A-Z
+        let ordenacaoAZ = NSSortDescriptor(key: "descricao", ascending: true)
+        //let ordenacaoAZ = NSSortDescriptor(Key: "preco", ascending: false)
+        
+        
+        //Aplicando filtro
+        //let predicate = NSPredicate(format: "descricao == %@" , "Lapis")
+        //let predicate = NSPredicate(format: "descricao contains [c] %@" , "Caneta")
+        //let predicate = NSPredicate(format: "descricao beginswith [c] %@" , "Can")
+        //let predicate = NSPredicate(format: "preco <=  %@" , "10")
+        
+        
+        //aplicando filtros
+        //requisicao.sortDescriptors = [ordenacaoAZ]
+       // requisicao.predicate = predicate
+        
+        
+        //aplicando filtro parte 2
+        let filtroDescricao = NSPredicate(format: "descricao contains [c] %@", "can")
+        let filtroPreco = NSPredicate(format: "preco >=  %@" , "11")
+        
+        //let combiFileter = NSCompoundPredicate(orPredicateWithSubpredicates: [filtroDescricao, filtroPreco])
+        let combiFileter = NSCompoundPredicate(andPredicateWithSubpredicates: [filtroDescricao, filtroPreco])
+        
+        
+        //aplicando filtros
+        requisicao.sortDescriptors = [ordenacaoAZ]
+        requisicao.predicate = combiFileter
+        
         do {
             let produtos = try context.fetch(requisicao)
             
@@ -102,7 +131,7 @@ class ViewController: UIViewController {
         let prod = NSEntityDescription.insertNewObject(forEntityName: "Produtos", into: context)
         
         //Criando onjeto user
-        prod.setValue("Lapis de 12 cores", forKey: "descricao")
+        prod.setValue("Caneta de 12 cores", forKey: "descricao")
         prod.setValue( 35 , forKey: "preco")
         prod.setValue("varias cores", forKey: "cor")
     
