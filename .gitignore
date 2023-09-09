@@ -1,5 +1,11 @@
-# macOS
+
+# Ignorar todos os arquivos .DS_Store recursivamente
+**/.DS_Store
+
+# Adicione esta regra adicional
 .DS_Store
+
+
 
 # Xcode
 *.swiftpm
