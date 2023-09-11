@@ -4,7 +4,7 @@ var str = "Enum"
 
 // forma um de formar um enum
 
- 
+
 enum CarroTipo{
     
     case fusca
@@ -14,18 +14,18 @@ enum CarroTipo{
 }
 
 //Aqui explicitamente informamos que a variavel tipo do carro é do tipo Carrotipo
-   var tipoCarro: CarroTipo = CarroTipo.chevete80
+var tipoCarro: CarroTipo = CarroTipo.chevete80
 print("O meu carro é \(tipoCarro)")
 //Dessa forma a linguagem ja sabe que a variavel é dotipo CarroTipo então não precisa colocar
-    var tipoCarro2: CarroTipo = CarroTipo.monza
+var tipoCarro2: CarroTipo = CarroTipo.monza
 print("O meu carro é \(tipoCarro2)")
 
 //Dessa forma se deixar explicitamente o tipo
-    var tipoCarro3: CarroTipo = .chevete80
+var tipoCarro3: CarroTipo = .chevete80
 print("O meu carro é \(tipoCarro3)")
 
 //Alterando 
-    tipoCarro3  = .fusca
+tipoCarro3  = .fusca
 print("3 errei é \(tipoCarro3)")
 
 // colocando todos em um case só
@@ -34,13 +34,13 @@ enum LugarLotacao{
 }
 
 var lugares = LugarLotacao.emPe
-  switch lugares {
-  case .emPe:
-        print(" i cara vai chegar cansado em casa")
-  case .naJanela:
-     print(" Tranquilo ")
-  case .noCorredor:
-     print(" Não muito bom mas da pra ficar de boas")
+switch lugares {
+case .emPe:
+    print(" i cara vai chegar cansado em casa")
+case .naJanela:
+    print(" Tranquilo ")
+case .noCorredor:
+    print(" Não muito bom mas da pra ficar de boas")
 }
 
 //determinando o valor bruto
@@ -50,13 +50,13 @@ enum LugarLotacao2: String{
 }
 
 var lugares2 = LugarLotacao2.emPe
-  switch lugares {
-  case .emPe:
-        print(" i cara vai chegar cansado em casa")
-  case .naJanela:
-     print(" Tranquilo ")
-  case .noCorredor:
-     print(" Não muito bom mas da pra ficar de boas")
+switch lugares {
+case .emPe:
+    print(" i cara vai chegar cansado em casa")
+case .naJanela:
+    print(" Tranquilo ")
+case .noCorredor:
+    print(" Não muito bom mas da pra ficar de boas")
 }
 
 print(lugares2.rawValue)
@@ -84,11 +84,11 @@ enum LugarLotacao3{
 }
 
 let lugares3 : LugarLotacao3 = .emPe(8.0)
-  switch lugares3 {
-  case .emPe(let emPe):
-        print(" i cara vai chegar cansado em casa \(emPe)")
-  case .naJanela:
-     print(" Tranquilo ")
-  case .noCorredor:
-     print(" Não muito bom mas da pra ficar de boas")
-  }
+switch lugares3 {
+case .emPe(let emPe):
+    print(" i cara vai chegar cansado em casa \(emPe)")
+case .naJanela:
+    print(" Tranquilo ")
+case .noCorredor:
+    print(" Não muito bom mas da pra ficar de boas")
+}
