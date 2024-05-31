@@ -1,25 +1,38 @@
-
-# Ignorar todos os arquivos .DS_Store recursivamente
-**/.DS_Store
-
-# Adicione esta regra adicional
+# Arquivos gerados pelo Xcode
 .DS_Store
+build/
+DerivedData/
 
-
-
-# Xcode
+# Arquivos de build
+*.o
+*.xcodeproj/*
+*.xcworkspace/*
+*.xcuserstate
 *.swiftpm
-*.xcworkspace
-xcuserdata/
-/*.xcworkspace
-/*.xcuserdatad
 
-# Swift Package Manager
-.build/
-Packages/
-
-# CocoaPods
+# Dependências geradas pelo CocoaPods
 Pods/
+Podfile.lock
 
-# Carthage
-Carthage/Build
+# Arquivos de configuração gerados
+xcuserdata/
+
+# Logs e dados temporários
+*.log
+*.crash
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Arquivos específicos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight
+.Trashes
+__MACOSX/
+
+# Arquivos de compilação do Swift Package Manager
+.build/
