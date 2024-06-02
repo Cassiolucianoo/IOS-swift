@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3666242C0B7D7C003775ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3666232C0B7D7C003775ED /* AppDelegate.swift */; };
+		DF3666262C0B7D7C003775ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3666252C0B7D7C003775ED /* SceneDelegate.swift */; };
+		DF3666282C0B7D7C003775ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3666272C0B7D7C003775ED /* ViewController.swift */; };
+		DF36662B2C0B7D7C003775ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF36662A2C0B7D7C003775ED /* Base */; };
+		DF36662D2C0B7D7E003775ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF36662C2C0B7D7E003775ED /* Assets.xcassets */; };
+		DF3666302C0B7D7E003775ED /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DF36662F2C0B7D7E003775ED /* Base */; };
+		DF36663B2C0B7D7F003775ED /* Treinamento___BotoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF36663A2C0B7D7F003775ED /* Treinamento___BotoesTests.swift */; };
+		DF3666452C0B7D7F003775ED /* Treinamento___BotoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3666442C0B7D7F003775ED /* Treinamento___BotoesUITests.swift */; };
+		DF3666472C0B7D7F003775ED /* Treinamento___BotoesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3666462C0B7D7F003775ED /* Treinamento___BotoesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF3666372C0B7D7F003775ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3666182C0B7D7C003775ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF36661F2C0B7D7C003775ED;
+			remoteInfo = "Treinamento - Botoes";
+		};
+		DF3666412C0B7D7F003775ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF3666182C0B7D7C003775ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF36661F2C0B7D7C003775ED;
+			remoteInfo = "Treinamento - Botoes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3666202C0B7D7C003775ED /* Treinamento - Botoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento - Botoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3666232C0B7D7C003775ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF3666252C0B7D7C003775ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF3666272C0B7D7C003775ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF36662A2C0B7D7C003775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF36662C2C0B7D7E003775ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF36662F2C0B7D7E003775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF3666312C0B7D7E003775ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3666362C0B7D7F003775ED /* Treinamento - BotoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treinamento - BotoesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF36663A2C0B7D7F003775ED /* Treinamento___BotoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___BotoesTests.swift"; sourceTree = "<group>"; };
+		DF3666402C0B7D7F003775ED /* Treinamento - BotoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treinamento - BotoesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3666442C0B7D7F003775ED /* Treinamento___BotoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___BotoesUITests.swift"; sourceTree = "<group>"; };
+		DF3666462C0B7D7F003775ED /* Treinamento___BotoesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___BotoesUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF36661D2C0B7D7C003775ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3666332C0B7D7F003775ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF36663D2C0B7D7F003775ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3666172C0B7D7C003775ED = {
+			isa = PBXGroup;
+			children = (
+				DF3666222C0B7D7C003775ED /* Treinamento - Botoes */,
+				DF3666392C0B7D7F003775ED /* Treinamento - BotoesTests */,
+				DF3666432C0B7D7F003775ED /* Treinamento - BotoesUITests */,
+				DF3666212C0B7D7C003775ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3666212C0B7D7C003775ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3666202C0B7D7C003775ED /* Treinamento - Botoes.app */,
+				DF3666362C0B7D7F003775ED /* Treinamento - BotoesTests.xctest */,
+				DF3666402C0B7D7F003775ED /* Treinamento - BotoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3666222C0B7D7C003775ED /* Treinamento - Botoes */ = {
+			isa = PBXGroup;
+			children = (
+				DF3666232C0B7D7C003775ED /* AppDelegate.swift */,
+				DF3666252C0B7D7C003775ED /* SceneDelegate.swift */,
+				DF3666272C0B7D7C003775ED /* ViewController.swift */,
+				DF3666292C0B7D7C003775ED /* Main.storyboard */,
+				DF36662C2C0B7D7E003775ED /* Assets.xcassets */,
+				DF36662E2C0B7D7E003775ED /* LaunchScreen.storyboard */,
+				DF3666312C0B7D7E003775ED /* Info.plist */,
+			);
+			path = "Treinamento - Botoes";
+			sourceTree = "<group>";
+		};
+		DF3666392C0B7D7F003775ED /* Treinamento - BotoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF36663A2C0B7D7F003775ED /* Treinamento___BotoesTests.swift */,
+			);
+			path = "Treinamento - BotoesTests";
+			sourceTree = "<group>";
+		};
+		DF3666432C0B7D7F003775ED /* Treinamento - BotoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF3666442C0B7D7F003775ED /* Treinamento___BotoesUITests.swift */,
+				DF3666462C0B7D7F003775ED /* Treinamento___BotoesUITestsLaunchTests.swift */,
+			);
+			path = "Treinamento - BotoesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF36661F2C0B7D7C003775ED /* Treinamento - Botoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF36664A2C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - Botoes" */;
+			buildPhases = (
+				DF36661C2C0B7D7C003775ED /* Sources */,
+				DF36661D2C0B7D7C003775ED /* Frameworks */,
+				DF36661E2C0B7D7C003775ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treinamento - Botoes";
+			productName = "Treinamento - Botoes";
+			productReference = DF3666202C0B7D7C003775ED /* Treinamento - Botoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF3666352C0B7D7F003775ED /* Treinamento - BotoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF36664D2C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - BotoesTests" */;
+			buildPhases = (
+				DF3666322C0B7D7F003775ED /* Sources */,
+				DF3666332C0B7D7F003775ED /* Frameworks */,
+				DF3666342C0B7D7F003775ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3666382C0B7D7F003775ED /* PBXTargetDependency */,
+			);
+			name = "Treinamento - BotoesTests";
+			productName = "Treinamento - BotoesTests";
+			productReference = DF3666362C0B7D7F003775ED /* Treinamento - BotoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF36663F2C0B7D7F003775ED /* Treinamento - BotoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3666502C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - BotoesUITests" */;
+			buildPhases = (
+				DF36663C2C0B7D7F003775ED /* Sources */,
+				DF36663D2C0B7D7F003775ED /* Frameworks */,
+				DF36663E2C0B7D7F003775ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF3666422C0B7D7F003775ED /* PBXTargetDependency */,
+			);
+			name = "Treinamento - BotoesUITests";
+			productName = "Treinamento - BotoesUITests";
+			productReference = DF3666402C0B7D7F003775ED /* Treinamento - BotoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3666182C0B7D7C003775ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DF36661F2C0B7D7C003775ED = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DF3666352C0B7D7F003775ED = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DF36661F2C0B7D7C003775ED;
+					};
+					DF36663F2C0B7D7F003775ED = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DF36661F2C0B7D7C003775ED;
+					};
+				};
+			};
+			buildConfigurationList = DF36661B2C0B7D7C003775ED /* Build configuration list for PBXProject "Treinamento - Botoes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3666172C0B7D7C003775ED;
+			productRefGroup = DF3666212C0B7D7C003775ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF36661F2C0B7D7C003775ED /* Treinamento - Botoes */,
+				DF3666352C0B7D7F003775ED /* Treinamento - BotoesTests */,
+				DF36663F2C0B7D7F003775ED /* Treinamento - BotoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF36661E2C0B7D7C003775ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF36662D2C0B7D7E003775ED /* Assets.xcassets in Resources */,
+				DF3666302C0B7D7E003775ED /* Base in Resources */,
+				DF36662B2C0B7D7C003775ED /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3666342C0B7D7F003775ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF36663E2C0B7D7F003775ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF36661C2C0B7D7C003775ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3666282C0B7D7C003775ED /* ViewController.swift in Sources */,
+				DF3666242C0B7D7C003775ED /* AppDelegate.swift in Sources */,
+				DF3666262C0B7D7C003775ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF3666322C0B7D7F003775ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF36663B2C0B7D7F003775ED /* Treinamento___BotoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF36663C2C0B7D7F003775ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3666452C0B7D7F003775ED /* Treinamento___BotoesUITests.swift in Sources */,
+				DF3666472C0B7D7F003775ED /* Treinamento___BotoesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF3666382C0B7D7F003775ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF36661F2C0B7D7C003775ED /* Treinamento - Botoes */;
+			targetProxy = DF3666372C0B7D7F003775ED /* PBXContainerItemProxy */;
+		};
+		DF3666422C0B7D7F003775ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF36661F2C0B7D7C003775ED /* Treinamento - Botoes */;
+			targetProxy = DF3666412C0B7D7F003775ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF3666292C0B7D7C003775ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF36662A2C0B7D7C003775ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF36662E2C0B7D7E003775ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF36662F2C0B7D7E003775ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3666482C0B7D7F003775ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF3666492C0B7D7F003775ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF36664B2C0B7D7F003775ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Treinamento - Botoes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---Botoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF36664C2C0B7D7F003775ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Treinamento - Botoes/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---Botoes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF36664E2C0B7D7F003775ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---BotoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treinamento - Botoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Treinamento - Botoes";
+			};
+			name = Debug;
+		};
+		DF36664F2C0B7D7F003775ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---BotoesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treinamento - Botoes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Treinamento - Botoes";
+			};
+			name = Release;
+		};
+		DF3666512C0B7D7F003775ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---BotoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Treinamento - Botoes";
+			};
+			name = Debug;
+		};
+		DF3666522C0B7D7F003775ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---BotoesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Treinamento - Botoes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF36661B2C0B7D7C003775ED /* Build configuration list for PBXProject "Treinamento - Botoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3666482C0B7D7F003775ED /* Debug */,
+				DF3666492C0B7D7F003775ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF36664A2C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - Botoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF36664B2C0B7D7F003775ED /* Debug */,
+				DF36664C2C0B7D7F003775ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF36664D2C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - BotoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF36664E2C0B7D7F003775ED /* Debug */,
+				DF36664F2C0B7D7F003775ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3666502C0B7D7F003775ED /* Build configuration list for PBXNativeTarget "Treinamento - BotoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3666512C0B7D7F003775ED /* Debug */,
+				DF3666522C0B7D7F003775ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3666182C0B7D7C003775ED /* Project object */;
+}

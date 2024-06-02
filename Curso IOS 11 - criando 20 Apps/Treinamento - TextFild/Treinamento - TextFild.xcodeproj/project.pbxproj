@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB6B4EC2C0BF87B009FD016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B4EB2C0BF87B009FD016 /* AppDelegate.swift */; };
+		DFB6B4EE2C0BF87B009FD016 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B4ED2C0BF87B009FD016 /* SceneDelegate.swift */; };
+		DFB6B4F02C0BF87B009FD016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B4EF2C0BF87B009FD016 /* ViewController.swift */; };
+		DFB6B4F32C0BF87B009FD016 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B4F22C0BF87B009FD016 /* Base */; };
+		DFB6B4F52C0BF87D009FD016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B4F42C0BF87D009FD016 /* Assets.xcassets */; };
+		DFB6B4F82C0BF87D009FD016 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DFB6B4F72C0BF87D009FD016 /* Base */; };
+		DFB6B5032C0BF87E009FD016 /* Treinamento___TextFildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B5022C0BF87E009FD016 /* Treinamento___TextFildTests.swift */; };
+		DFB6B50D2C0BF87E009FD016 /* Treinamento___TextFildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B50C2C0BF87E009FD016 /* Treinamento___TextFildUITests.swift */; };
+		DFB6B50F2C0BF87E009FD016 /* Treinamento___TextFildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6B50E2C0BF87E009FD016 /* Treinamento___TextFildUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB6B4FF2C0BF87E009FD016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6B4E02C0BF87B009FD016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB6B4E72C0BF87B009FD016;
+			remoteInfo = "Treinamento - TextFild";
+		};
+		DFB6B5092C0BF87E009FD016 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB6B4E02C0BF87B009FD016 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB6B4E72C0BF87B009FD016;
+			remoteInfo = "Treinamento - TextFild";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB6B4E82C0BF87B009FD016 /* Treinamento - TextFild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treinamento - TextFild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6B4EB2C0BF87B009FD016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFB6B4ED2C0BF87B009FD016 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFB6B4EF2C0BF87B009FD016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFB6B4F22C0BF87B009FD016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB6B4F42C0BF87D009FD016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFB6B4F72C0BF87D009FD016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFB6B4F92C0BF87D009FD016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB6B4FE2C0BF87E009FD016 /* Treinamento - TextFildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treinamento - TextFildTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6B5022C0BF87E009FD016 /* Treinamento___TextFildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___TextFildTests.swift"; sourceTree = "<group>"; };
+		DFB6B5082C0BF87E009FD016 /* Treinamento - TextFildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treinamento - TextFildUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB6B50C2C0BF87E009FD016 /* Treinamento___TextFildUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___TextFildUITests.swift"; sourceTree = "<group>"; };
+		DFB6B50E2C0BF87E009FD016 /* Treinamento___TextFildUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Treinamento___TextFildUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB6B4E52C0BF87B009FD016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B4FB2C0BF87E009FD016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B5052C0BF87E009FD016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB6B4DF2C0BF87B009FD016 = {
+			isa = PBXGroup;
+			children = (
+				DFB6B4EA2C0BF87B009FD016 /* Treinamento - TextFild */,
+				DFB6B5012C0BF87E009FD016 /* Treinamento - TextFildTests */,
+				DFB6B50B2C0BF87E009FD016 /* Treinamento - TextFildUITests */,
+				DFB6B4E92C0BF87B009FD016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB6B4E92C0BF87B009FD016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B4E82C0BF87B009FD016 /* Treinamento - TextFild.app */,
+				DFB6B4FE2C0BF87E009FD016 /* Treinamento - TextFildTests.xctest */,
+				DFB6B5082C0BF87E009FD016 /* Treinamento - TextFildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB6B4EA2C0BF87B009FD016 /* Treinamento - TextFild */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B4EB2C0BF87B009FD016 /* AppDelegate.swift */,
+				DFB6B4ED2C0BF87B009FD016 /* SceneDelegate.swift */,
+				DFB6B4EF2C0BF87B009FD016 /* ViewController.swift */,
+				DFB6B4F12C0BF87B009FD016 /* Main.storyboard */,
+				DFB6B4F42C0BF87D009FD016 /* Assets.xcassets */,
+				DFB6B4F62C0BF87D009FD016 /* LaunchScreen.storyboard */,
+				DFB6B4F92C0BF87D009FD016 /* Info.plist */,
+			);
+			path = "Treinamento - TextFild";
+			sourceTree = "<group>";
+		};
+		DFB6B5012C0BF87E009FD016 /* Treinamento - TextFildTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B5022C0BF87E009FD016 /* Treinamento___TextFildTests.swift */,
+			);
+			path = "Treinamento - TextFildTests";
+			sourceTree = "<group>";
+		};
+		DFB6B50B2C0BF87E009FD016 /* Treinamento - TextFildUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB6B50C2C0BF87E009FD016 /* Treinamento___TextFildUITests.swift */,
+				DFB6B50E2C0BF87E009FD016 /* Treinamento___TextFildUITestsLaunchTests.swift */,
+			);
+			path = "Treinamento - TextFildUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB6B4E72C0BF87B009FD016 /* Treinamento - TextFild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB6B5122C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFild" */;
+			buildPhases = (
+				DFB6B4E42C0BF87B009FD016 /* Sources */,
+				DFB6B4E52C0BF87B009FD016 /* Frameworks */,
+				DFB6B4E62C0BF87B009FD016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treinamento - TextFild";
+			productName = "Treinamento - TextFild";
+			productReference = DFB6B4E82C0BF87B009FD016 /* Treinamento - TextFild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB6B4FD2C0BF87E009FD016 /* Treinamento - TextFildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB6B5152C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFildTests" */;
+			buildPhases = (
+				DFB6B4FA2C0BF87E009FD016 /* Sources */,
+				DFB6B4FB2C0BF87E009FD016 /* Frameworks */,
+				DFB6B4FC2C0BF87E009FD016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB6B5002C0BF87E009FD016 /* PBXTargetDependency */,
+			);
+			name = "Treinamento - TextFildTests";
+			productName = "Treinamento - TextFildTests";
+			productReference = DFB6B4FE2C0BF87E009FD016 /* Treinamento - TextFildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFB6B5072C0BF87E009FD016 /* Treinamento - TextFildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB6B5182C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFildUITests" */;
+			buildPhases = (
+				DFB6B5042C0BF87E009FD016 /* Sources */,
+				DFB6B5052C0BF87E009FD016 /* Frameworks */,
+				DFB6B5062C0BF87E009FD016 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB6B50A2C0BF87E009FD016 /* PBXTargetDependency */,
+			);
+			name = "Treinamento - TextFildUITests";
+			productName = "Treinamento - TextFildUITests";
+			productReference = DFB6B5082C0BF87E009FD016 /* Treinamento - TextFildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB6B4E02C0BF87B009FD016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DFB6B4E72C0BF87B009FD016 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DFB6B4FD2C0BF87E009FD016 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DFB6B4E72C0BF87B009FD016;
+					};
+					DFB6B5072C0BF87E009FD016 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DFB6B4E72C0BF87B009FD016;
+					};
+				};
+			};
+			buildConfigurationList = DFB6B4E32C0BF87B009FD016 /* Build configuration list for PBXProject "Treinamento - TextFild" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB6B4DF2C0BF87B009FD016;
+			productRefGroup = DFB6B4E92C0BF87B009FD016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB6B4E72C0BF87B009FD016 /* Treinamento - TextFild */,
+				DFB6B4FD2C0BF87E009FD016 /* Treinamento - TextFildTests */,
+				DFB6B5072C0BF87E009FD016 /* Treinamento - TextFildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB6B4E62C0BF87B009FD016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B4F52C0BF87D009FD016 /* Assets.xcassets in Resources */,
+				DFB6B4F82C0BF87D009FD016 /* Base in Resources */,
+				DFB6B4F32C0BF87B009FD016 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B4FC2C0BF87E009FD016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B5062C0BF87E009FD016 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB6B4E42C0BF87B009FD016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B4F02C0BF87B009FD016 /* ViewController.swift in Sources */,
+				DFB6B4EC2C0BF87B009FD016 /* AppDelegate.swift in Sources */,
+				DFB6B4EE2C0BF87B009FD016 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B4FA2C0BF87E009FD016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B5032C0BF87E009FD016 /* Treinamento___TextFildTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB6B5042C0BF87E009FD016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB6B50D2C0BF87E009FD016 /* Treinamento___TextFildUITests.swift in Sources */,
+				DFB6B50F2C0BF87E009FD016 /* Treinamento___TextFildUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB6B5002C0BF87E009FD016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB6B4E72C0BF87B009FD016 /* Treinamento - TextFild */;
+			targetProxy = DFB6B4FF2C0BF87E009FD016 /* PBXContainerItemProxy */;
+		};
+		DFB6B50A2C0BF87E009FD016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB6B4E72C0BF87B009FD016 /* Treinamento - TextFild */;
+			targetProxy = DFB6B5092C0BF87E009FD016 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB6B4F12C0BF87B009FD016 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB6B4F22C0BF87B009FD016 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB6B4F62C0BF87D009FD016 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB6B4F72C0BF87D009FD016 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB6B5102C0BF87E009FD016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFB6B5112C0BF87E009FD016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB6B5132C0BF87E009FD016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Treinamento - TextFild/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFild";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB6B5142C0BF87E009FD016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Treinamento - TextFild/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFild";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFB6B5162C0BF87E009FD016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treinamento - TextFild.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Treinamento - TextFild";
+			};
+			name = Debug;
+		};
+		DFB6B5172C0BF87E009FD016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treinamento - TextFild.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Treinamento - TextFild";
+			};
+			name = Release;
+		};
+		DFB6B5192C0BF87E009FD016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Treinamento - TextFild";
+			};
+			name = Debug;
+		};
+		DFB6B51A2C0BF87E009FD016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cassiolucianodasilva.Treinamento---TextFildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Treinamento - TextFild";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB6B4E32C0BF87B009FD016 /* Build configuration list for PBXProject "Treinamento - TextFild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B5102C0BF87E009FD016 /* Debug */,
+				DFB6B5112C0BF87E009FD016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB6B5122C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B5132C0BF87E009FD016 /* Debug */,
+				DFB6B5142C0BF87E009FD016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB6B5152C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B5162C0BF87E009FD016 /* Debug */,
+				DFB6B5172C0BF87E009FD016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB6B5182C0BF87E009FD016 /* Build configuration list for PBXNativeTarget "Treinamento - TextFildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB6B5192C0BF87E009FD016 /* Debug */,
+				DFB6B51A2C0BF87E009FD016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB6B4E02C0BF87B009FD016 /* Project object */;
+}
