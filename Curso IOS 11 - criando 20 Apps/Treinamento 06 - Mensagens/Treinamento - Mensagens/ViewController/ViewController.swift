@@ -4,12 +4,12 @@
 //
 //  Created by cassio on 02/06/24.
 //
-
 import UIKit
 
 class ViewController: BaseViewController {
     
     @IBOutlet weak var textField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.setNavigationBarHidden(false, animated: true)
@@ -21,12 +21,8 @@ class ViewController: BaseViewController {
         let vc = segue.destination as! MessageColorViewController
         vc.message = message // Passando a propriedade 'message' para a próxima view controller
     }
-
-    override func changeColor(_ sender: UIButton) {
-        let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as! ColorPickerViewController
-        present(colorPicker, animated: true, completion: nil)
-    }
 }
+
 extension ViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         message.text = textField.text // Atualiza a propriedade message com o texto do UITextField
@@ -36,4 +32,10 @@ extension ViewController: UITextFieldDelegate {
     }
 }
 
+extension ViewController: ColorPickerDelegate{
+    func applyColor(color: UIColor){
+        lbMessage.textColor  = color
+        message.textColor = color
+    }
+}
 

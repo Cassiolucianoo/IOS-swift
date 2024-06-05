@@ -10,14 +10,28 @@ import UIKit
 class MessageColorViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        lbMessage.text = message.text ?? "No message available"
-    }
-
-    override func changeColor(_ sender: UIButton) {
-        if let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as? ColorPickerViewController {
-            present(colorPicker, animated: true, completion: nil)
+      
+        
+        if let message = self.message {
+            lbMessage.text = message.text
+            lbMessage.textColor = message.textColor
+            lbMessage.backgroundColor = message.backgroundColor
         } else {
-            print("ColorPickerViewController could not be instantiated")
+            lbMessage.text = "No message available"
         }
     }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! ScreenColorViewController
+        vc.message = message // Passando a propriedade 'message' para a próxima view controller
+    }
+    
+   
 }
+
+extension MessageColorViewController: ColorPickerDelegate{
+    func applyColor(color: UIColor){
+        lbMessage.backgroundColor  = color
+        message.backgroundColor = color
+    }
+}
+
