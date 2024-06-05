@@ -16,7 +16,7 @@ class ViewController: BaseViewController {
         message = Message() // Aqui estamos inicializando a propriedade 'message'
         textField.delegate = self  // Define o delegate do textField
     }
-
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! MessageColorViewController
         vc.message = message // Passando a propriedade 'message' para a próxima view controller

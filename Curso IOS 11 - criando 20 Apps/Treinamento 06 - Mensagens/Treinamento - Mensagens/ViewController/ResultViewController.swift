@@ -8,7 +8,7 @@
 import UIKit
 
 class ResultViewController: BaseViewController{
-
+    
     @IBOutlet weak var viBorder: UIView!
     var userWhiteBorder: Bool = false
     
@@ -26,7 +26,7 @@ class ResultViewController: BaseViewController{
             lbMessage.text = "No message available"
         }
     }
-
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         navigationController?.popViewController(animated: true)
         navigationController?.setNavigationBarHidden(false, animated: true)

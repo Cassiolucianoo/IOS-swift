@@ -8,7 +8,7 @@
 import UIKit
 
 class ScreenColorViewController: BaseViewController {
-
+    
     @IBOutlet weak var viBorder: UILabel!
     @IBOutlet weak var swWhiteBorder: UISwitch!
     var userWhiteBorder: Bool = false
@@ -22,12 +22,12 @@ class ScreenColorViewController: BaseViewController {
             lbMessage.text = message.text
             lbMessage.textColor = message.textColor
             lbMessage.backgroundColor = message.backgroundColor
-        
+            
         } else {
             lbMessage.text = "No message available"
         }
         
-       
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
