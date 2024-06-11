@@ -11,7 +11,6 @@ class MessageColorViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
-        
         if let message = self.message {
             lbMessage.text = message.text
             lbMessage.textColor = message.textColor
